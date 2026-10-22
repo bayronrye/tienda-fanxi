@@ -1,0 +1,16 @@
+{
+  "fuente": "AutoDS MCP get_product_by_id + search_products (anclas Amazon)",
+  "extraido": "2026-10-19",
+  "productos": [
+    {"id":"66abb11677c23e9dbffac04b","site":"aliexpress","id_on_site":"1005005069849455","supplier":"VOGUISH Global Store","tipo":"ems_foot_mat","title":"EMS Foot Massager Mat Electric TENS Feet Massager Pad Foldable Massage Mat Muscle Stimulation","img":"https://ae01.alicdn.com/kf/Sc4dbd0cad8364adfb6452d5d3ac1e47f5.jpg","min_price":9.49,"max_price":27.19,"ship_cost":1.99,"ship_min":13,"ship_max":13,"warehouse":"CN","rating":4.6,"rating_count":115,"orders_count":164,"view_count":152,"import_count":5,"stock":77,"best_variant_cost":9.49,"best_variant_ship":1.99,"ship_days":13,"updated_at":"2026-10-18T03:37:43Z","created_at":"2024-10-22T04:02:51Z","description_excerpt":"When you put both feet on the pad, the foot massager massages the muscles of the feet to relieve pain; 19 levels and 8 modes; foldable, rechargeable; for long-term standing work."},
+    {"id":"694fb4a99ef1d600010f7ab2","site":"aliexpress","id_on_site":"1005006258401479","supplier":"Massage Supplies Shop Store","tipo":"ems_foot_mat","title":"Intelligent Massager EMS Pulse Micro Current Foot Massage Pad Charging Physical Therapy Foot Massage Pad","img":"https://ae01.alicdn.com/kf/S04e2a590bae247139d85ca9df530ab55j.png","min_price":4.14,"max_price":5.02,"ship_cost":1.99,"ship_min":14,"ship_max":14,"warehouse":"CN","rating":null,"rating_count":null,"orders_count":null,"view_count":135,"import_count":4,"stock":1009,"best_variant_cost":4.14,"best_variant_ship":1.99,"ship_days":14,"updated_at":"2026-10-15T12:06:04Z","created_at":"2025-12-25T14:27:28Z"},
+    {"id":"aed2a3f29995cb20a285e6bd","site":"aliexpress","id_on_site":"1005006058085070","supplier":"KWEEPFULL Official Store","tipo":"bunion_corrector","rating":null,"rating_count":null,"orders_count":1,"view_count":3,"import_count":0,"stock":2962,"best_variant_cost":3.65,"best_variant_ship":1.99,"ship_days":13,"updated_at":"2026-10-18T01:52:43Z","created_at":"2026-06-21T21:12:54Z"}
+  ],
+  "referencias_competencia_amazon": [
+    {"id":"40e1b795633061acd1a33a04","tipo":"ems_foot_mat","title":"EaseZen EMS Foot Massager for Neuropathy, Plantar Fasciitis (B0D4R6FFXC)","price":79.99},
+    {"id":"13fdca2e24e05b1c364d8b09","tipo":"ems_foot_mat","title":"EaseZen EMS Foot Massager for Neuropathy, Plantar Fasciitis (B0D2RJ8SCN, listado duplicado)","price":79.99,"duplicado_de":"40e1b795633061acd1a33a04"},
+    {"id":"cb5e80ecb805d383580115c6","tipo":"ems_foot_mat","title":"EMS Foot Massager for Neuropathy FSA Eligible 25 Modes (DDDTOP)","price":129.99},
+    {"id":"707b4a48bf40622f01769a37","tipo":"eye_massager","title":"GLO24K Heated Eye Massager Wand with Vibration","price":49.0},
+    {"id":"98002bbca81b82dadb3ce884","tipo":"eye_massager","title":"RENPHO Eyeris 3 Eye Massager with Heat and Cooling","price":79.99}
+  ]
+}

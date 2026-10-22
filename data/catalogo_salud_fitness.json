@@ -1,0 +1,1228 @@
+{
+  "meta": {
+    "fuente": "Conector AutoDS (MCP): search_products, get_product_by_id, get_similar_products, get_winning_products",
+    "modo": "solo lectura",
+    "extraido": "2026-10-21",
+    "anclas_extraidas": "2026-10-21",
+    "region": "US",
+    "moneda": "USD",
+    "categorias": [
+      {
+        "id": "6169735694f2b1708dccde8b",
+        "ruta": "Sports & Fitness > Exercise & Fitness"
+      },
+      {
+        "id": "6751af15611cd6c8f1be0bf5",
+        "ruta": "Beauty & Personal Care > Health & Wellness"
+      }
+    ],
+    "nota": "Además de las dos categorías se buscaron por palabra clave productos de dolor físico (cervical, lumbar, pies, sueño, ronquidos, postura); AutoDS los cataloga en 'Other Category'.",
+    "total_productos": 27,
+    "total_anclas": 58
+  },
+  "productos": [
+    {
+      "lotes": [
+        "raw_batch3.json",
+        "raw_batch6_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "410759ed1c8776e93b3fef57",
+      "site": "aliexpress",
+      "id_on_site": "1005009186508080",
+      "supplier": "Blue Snail Boutique Preferred Store Store",
+      "tipo": "bunion_corrector",
+      "title": "Bunion Corrector Orthopedic Big Toe Straightener Corrector Adjustable Hallux Valgus Brace Foot Care Bunion Relief",
+      "img": "https://ae01.alicdn.com/kf/S49a49a8a850a419b9f7a039ac9ca4ff2H.jpg",
+      "min_price": 9.41,
+      "max_price": 9.44,
+      "ship_cost": 1.99,
+      "ship_min": 15,
+      "ship_max": 15,
+      "warehouse": "CN",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 12,
+      "import_count": 1,
+      "stock": 6,
+      "best_variant_cost": 9.41,
+      "best_variant_ship": 1.99,
+      "ship_days": 15,
+      "updated_at": "2026-10-10T12:14:33Z",
+      "created_at": "2026-06-21T10:45:40Z",
+      "description_excerpt": "Adjustable correction angle via metal knob; silicone pads; 160-degree flexibility for walking.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch4_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "6171246586057dd48d6c674f",
+      "site": "aliexpress",
+      "id_on_site": "1005001694313677",
+      "supplier": "Shop910989026 Store",
+      "title": "Adjustable Posture Corrector Back Support Shoulder Back Brace Posture Correction Spine Posture Corrector Postural Fixer Tape",
+      "category": "Exercise & Fitness > Strength Training",
+      "img": "https://ae01.alicdn.com/kf/S50b9e289c04b408284f6f7ad402ca2e7o.jpg",
+      "min_price": 11.62,
+      "max_price": 11.62,
+      "ship_cost": 0,
+      "ship_min": 14,
+      "ship_max": 14,
+      "warehouse": "CN",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 8419,
+      "import_count": 1081,
+      "stock": 2,
+      "best_variant_cost": 11.62,
+      "best_variant_ship": 0,
+      "ship_days": 15,
+      "updated_at": "2026-10-21T15:15:48Z",
+      "created_at": "2025-04-06T11:17:33Z",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch1.json"
+      ],
+      "id": "6595db17da0df92307ebc572",
+      "site": "aliexpress",
+      "id_on_site": "3256805798988093",
+      "supplier": "Tsang Official Store",
+      "title": "26/33cm Yoga Column Foam Fitness Pilates Back Muscle Massage Roller Gym Home Myofascial Release The Grid Body Relaxation",
+      "category": "Exercise & Fitness > Yoga",
+      "img": "https://ae01.alicdn.com/kf/Seb8881af275a4f78a34f805286bf6c74O.jpg",
+      "min_price": 9.89,
+      "max_price": 12.39,
+      "ship_cost": 6.17,
+      "ship_min": 14,
+      "ship_max": 15,
+      "warehouse": "US"
+    },
+    {
+      "lotes": [
+        "raw_batch1.json"
+      ],
+      "id": "65b3b172a4f299ee16d54579",
+      "site": "cjdropshipping",
+      "id_on_site": "CJBJPFST00536-SET",
+      "supplier": "CJ",
+      "title": "Resistance Bands Sealing Elastic Booty Sport Bodybuilding Rubber Band For Fitness Gym Leagues Equipment Sports Mini Yoga",
+      "category": "Exercise & Fitness > Yoga",
+      "img": "https://cf.cjdropshipping.com/7aa6cbdc-22b3-4921-ac69-810b792945fb.jpg",
+      "min_price": 0.69,
+      "max_price": 4.12,
+      "ship_cost": 4.75,
+      "ship_min": 6,
+      "ship_max": 11,
+      "warehouse": "CN",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 3406,
+      "import_count": 328,
+      "updated_at": "2026-10-19T12:18:42Z"
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch4_metricas.json"
+      ],
+      "id": "65cea0095131e07687f79666",
+      "site": "aliexpress",
+      "id_on_site": "1005005621761561",
+      "supplier": "Shop1102782068JC Store",
+      "title": "Yoga Fitness Ring Circle Pilates Women Girl Exercise Home Resistance Elasticity Yoga Gym Workout Pilates Ring Circle",
+      "category": "Exercise & Fitness > Yoga",
+      "img": "https://ae01.alicdn.com/kf/Se1cbba55cc8847daa0e7242916ea6f27Z.jpg",
+      "min_price": 8.65,
+      "max_price": 8.75,
+      "ship_cost": 1.99,
+      "ship_min": 13,
+      "ship_max": 13,
+      "warehouse": "US",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 1513,
+      "import_count": 112,
+      "updated_at": "2026-10-19T12:08:27Z",
+      "stock": null,
+      "best_variant_cost": 8.65,
+      "best_variant_ship": 1.99,
+      "ship_days": 13
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch4_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "662264c30a70d9515281b1f2",
+      "site": "aliexpress",
+      "id_on_site": "2251832664979636",
+      "supplier": "SJASTME Store",
+      "title": "SJASTME Super Higher Power Compression Tummy and Thigh Control High Waist Trainer Body Shapers Slimming Shapewear Pants",
+      "category": "Winning product (free set)",
+      "img": "https://ae01.alicdn.com/kf/Scfecfab9b10f4b26b36832bfed56f61ae.jpg",
+      "min_price": 13.99,
+      "max_price": 13.99,
+      "ship_cost": 1.85,
+      "ship_min": 14,
+      "ship_max": 14,
+      "warehouse": "AU",
+      "rating": null,
+      "rating_count": 0,
+      "orders_count": 0,
+      "view_count": 37952,
+      "import_count": 28549,
+      "updated_at": "2026-10-21T12:17:23Z",
+      "winning": {
+        "sell_price": 43,
+        "profit": 27.16,
+        "saturation": 60,
+        "engagement": 50,
+        "competitor_prices": [
+          43,
+          32,
+          14.51,
+          25.95
+        ],
+        "ads": [
+          "Facebook",
+          "TikTok",
+          "TikTok"
+        ]
+      },
+      "stock": 1039,
+      "best_variant_cost": 13.99,
+      "best_variant_ship": 1.85,
+      "ship_days": 15,
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch5_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "66abb11677c23e9dbffac04b",
+      "site": "aliexpress",
+      "id_on_site": "1005005069849455",
+      "supplier": "VOGUISH Global Store",
+      "tipo": "ems_foot_mat",
+      "title": "EMS Foot Massager Mat Electric TENS Feet Massager Pad Foldable Massage Mat Muscle Stimulation",
+      "img": "https://ae01.alicdn.com/kf/Sc4dbd0cad8364adfb6452d5d3ac1e47f5.jpg",
+      "min_price": 9.49,
+      "max_price": 27.19,
+      "ship_cost": 1.99,
+      "ship_min": 13,
+      "ship_max": 13,
+      "warehouse": "CN",
+      "rating": 4.6,
+      "rating_count": 115,
+      "orders_count": 164,
+      "view_count": 153,
+      "import_count": 5,
+      "stock": 77,
+      "best_variant_cost": 9.49,
+      "best_variant_ship": 1.99,
+      "ship_days": 13,
+      "updated_at": "2026-10-20T12:06:42Z",
+      "created_at": "2024-10-22T04:02:51Z",
+      "description_excerpt": "When you put both feet on the pad, the foot massager massages the muscles of the feet to relieve pain; 19 levels and 8 modes; foldable, rechargeable; for long-term standing work.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch1.json"
+      ],
+      "id": "66d5495a37d3bd2e803216c2",
+      "site": "aliexpress",
+      "id_on_site": "3256806792786980",
+      "supplier": "Leeasy Official Store",
+      "title": "Booty Leg Resistance Bands With Ankle Strap Hip Fitness Trainer Pull Rope Exercises Band Leg Butt Training Women Glutes Workout",
+      "category": "Exercise & Fitness > Yoga",
+      "img": "https://ae01.alicdn.com/kf/S2c6762071ca94f049e97ded5391c18c0P.jpg",
+      "min_price": 14.32,
+      "max_price": 15.17,
+      "ship_cost": 0,
+      "ship_min": 13,
+      "ship_max": 13,
+      "warehouse": "US"
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch6_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "66eb6ebb0680f6aa8a84f281",
+      "site": "aliexpress",
+      "id_on_site": "3256807434365332",
+      "supplier": "Outdoor Riding Accessories 1 Store",
+      "title": "30cm Yoga Column Foam Fitness Muscle Training Pilates Sports Massage Foam Roller Grid Trigger Point Therapy Home Gym Exercise",
+      "category": "Exercise & Fitness > Yoga",
+      "img": "https://ae01.alicdn.com/kf/Se9443b7104c84efaae181839395fd7efs.jpg",
+      "min_price": 6.68,
+      "max_price": 7.09,
+      "ship_cost": 1.99,
+      "ship_min": 12,
+      "ship_max": 12,
+      "warehouse": "CN",
+      "tipo": "foam_roller",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 11457,
+      "import_count": 1828,
+      "stock": 38,
+      "best_variant_cost": 6.68,
+      "best_variant_ship": 1.99,
+      "ship_days": 12,
+      "updated_at": "2026-10-21T12:14:11Z",
+      "created_at": "2025-04-04T15:23:35Z",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch4_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "67520ec1908790c8eaeb5131",
+      "site": "aliexpress",
+      "id_on_site": "1005007513839510",
+      "supplier": "Pastsky Store",
+      "title": "Micro-current Smart Sleep Instrument Handheld Sleep Aid Relieves Stress Anxiety Insomnia Improves Sleep Palm Pulse Sleep Aid",
+      "category": "Health & Wellness > Sleep & Snoring Aids",
+      "img": "https://ae01.alicdn.com/kf/Sc6477e7d21d44ece875dad56fcfb7c73S.jpg",
+      "min_price": 9.8,
+      "max_price": 9.8,
+      "ship_cost": 1.99,
+      "ship_min": 11,
+      "ship_max": 11,
+      "warehouse": "CN",
+      "rating": 4.8,
+      "rating_count": 18,
+      "orders_count": 70,
+      "view_count": 2935,
+      "import_count": 157,
+      "stock": 3,
+      "best_variant_cost": 9.8,
+      "best_variant_ship": 1.99,
+      "ship_days": 11,
+      "updated_at": "2026-10-21T13:11:09Z",
+      "created_at": "2025-04-04T21:25:14Z",
+      "description_excerpt": "Microcurrent sleep instrument relieves stress and promotes natural sleep; no chemicals; 20 levels; Type-C.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch4_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "67520f394d17c33acd191110",
+      "site": "aliexpress",
+      "id_on_site": "3256807312009759",
+      "supplier": "AFDEAL SKIN Store",
+      "title": "Smart Sleep Instrument Portable Pulse Sleep Aid Handheld Sleep Aid Helps Fall Asleep Anxiety Relief Fast Sleep Aid Device",
+      "category": "Health & Wellness > Massage Tools & Equipment",
+      "img": "https://ae01.alicdn.com/kf/S67b19c7050bc4d10950a343a9f165974j.png",
+      "min_price": 8.87,
+      "max_price": 8.87,
+      "ship_cost": 1.99,
+      "ship_min": 14,
+      "ship_max": 14,
+      "warehouse": "CN",
+      "rating": 4.2,
+      "rating_count": 13,
+      "orders_count": 12,
+      "view_count": 2959,
+      "import_count": 121,
+      "stock": 99986,
+      "best_variant_cost": 8.87,
+      "best_variant_ship": 1.99,
+      "ship_days": 14,
+      "updated_at": "2026-10-21T12:14:44Z",
+      "created_at": "2025-04-04T15:35:37Z",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch7.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "6754ad7ba216fb1572b858de",
+      "site": "aliexpress",
+      "id_on_site": "3256807933892513",
+      "supplier": "Welcome to Department Store",
+      "tipo": "nasal_dilator",
+      "title": "Sport Nasal Dilator Sleep Nasal Breathing Dilators Starter Kit Nose Breathe Strips Magnetic Nasal Strips Reduce Snoring",
+      "img": "https://ae01.alicdn.com/kf/Se3ebbfc2c50a408082f909d4b37a31bcs.jpg",
+      "rating": null,
+      "rating_count": 0,
+      "orders_count": 4,
+      "view_count": 216,
+      "import_count": 26,
+      "stock": 285,
+      "best_variant_cost": 4.78,
+      "best_variant_ship": 1.99,
+      "ship_days": 15,
+      "warehouse": "CN",
+      "updated_at": "2026-10-13T12:21:03Z",
+      "created_at": "2024-12-19T10:20:34Z",
+      "description_excerpt": "Two nasal strips + magnetic nose clip maximise nasal passage opening; snoring relief; 15 pairs + 4 clips.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch6_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "6754af6321889a9abac129c4",
+      "site": "aliexpress",
+      "id_on_site": "1005001671258765",
+      "supplier": "KuZHEN Makeup Store",
+      "title": "1pc Anti-stress Head Skin Care Neck Relief Stress Relaxing Claw Massage Skin Care Massager",
+      "category": "Health & Wellness > Massage Tools & Equipment",
+      "img": "https://ae01.alicdn.com/kf/Hec2fab4c21a744bc99dd93318f791c02P.jpg",
+      "min_price": 0.85,
+      "max_price": 0.86,
+      "ship_cost": 6.66,
+      "ship_min": 14,
+      "ship_max": 14,
+      "warehouse": "US",
+      "tipo": "scalp_massager",
+      "rating": 5,
+      "rating_count": 1,
+      "orders_count": 1,
+      "view_count": 2712,
+      "import_count": 161,
+      "stock": 4995,
+      "best_variant_cost": 0.85,
+      "best_variant_ship": 6.67,
+      "ship_days": 15,
+      "updated_at": "2026-10-21T15:16:08Z",
+      "created_at": "2025-04-05T01:05:36Z",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch6_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "6779fa124b9b3c0b365f22a1",
+      "site": "aliexpress",
+      "id_on_site": "1005005936387099",
+      "supplier": "Motorcycle Riding Gloves Store",
+      "title": "1 Pcs Compression Knee Support Sleeve Elastic Breathable Knee Pads Brace Springs Gym Sports Protector Basketball Volleyball Run",
+      "category": "Health & Wellness > Massage Tools & Equipment",
+      "img": "https://ae01.alicdn.com/kf/S7d73b0d474074b2a9f077df5647f268d5.jpg",
+      "min_price": 3.25,
+      "max_price": 3.95,
+      "ship_cost": 1.99,
+      "ship_min": 10,
+      "ship_max": 10,
+      "warehouse": "CN",
+      "tipo": "knee_sleeve",
+      "rating": 4.7,
+      "rating_count": 2167,
+      "orders_count": 3000,
+      "view_count": 3534,
+      "import_count": 318,
+      "stock": 100,
+      "best_variant_cost": 3.25,
+      "best_variant_ship": 1.99,
+      "ship_days": 10,
+      "updated_at": "2026-10-21T14:46:20Z",
+      "created_at": "2025-04-04T23:34:43Z",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch4_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "678ab5c318febb58d8ce3afe",
+      "site": "aliexpress",
+      "id_on_site": "1005007355162340",
+      "supplier": "Au MIHJUSFDH Store",
+      "title": "Electric EMS Neck Massager Mini Cervical Back Patch Stimulator Massageador Mat Portable Gel Pad Stickers Slim",
+      "category": "Health & Wellness > Massage Tools & Equipment",
+      "img": "https://ae01.alicdn.com/kf/Sa904396baea24c489138b593597b7a26j.jpg",
+      "min_price": 4.55,
+      "max_price": 4.99,
+      "ship_cost": 1.99,
+      "ship_min": 13,
+      "ship_max": 13,
+      "warehouse": "CN",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 3136,
+      "import_count": 301,
+      "stock": 29,
+      "best_variant_cost": 4.55,
+      "best_variant_ship": 1.99,
+      "ship_days": 13,
+      "updated_at": "2026-10-21T12:14:40Z",
+      "created_at": "2025-04-04T21:41:15Z",
+      "description_excerpt": "8 modes & 19 levels EMS; neck / back / waist / hip / leg; stimulates inside of muscles for quick recovery from fatigue.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch7.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "679de2bd48e51c1ab9d6c99d",
+      "site": "aliexpress",
+      "id_on_site": "1005007168581016",
+      "supplier": "Stay Happy Healthy Store",
+      "tipo": "ems_foot_mat",
+      "title": "EMS Foot Massager Mat Electric Rechargeable Shoulder Massage Pulse Muscle Stimulation Foot Relaxation Pads",
+      "img": "https://ae01.alicdn.com/kf/S0ec57396f04c47cf978dde4f594faaf88.png",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 172,
+      "import_count": 4,
+      "stock": 124,
+      "best_variant_cost": 16.89,
+      "best_variant_ship": 0,
+      "ship_days": 14,
+      "warehouse": "US",
+      "updated_at": "2026-10-21T12:11:29Z",
+      "created_at": "2025-02-26T23:37:00Z",
+      "description_excerpt": "Low-frequency EMS pulse stimulates foot and leg muscles, relieves pain, reduces fatigue; 8 modes, 19 levels.",
+      "is_deleted": true,
+      "deleted_at": "2026-10-20T17:07:08Z"
+    },
+    {
+      "lotes": [
+        "raw_batch1.json",
+        "raw_batch4_metricas.json"
+      ],
+      "id": "67e6a2f1d126c2dc9986dcfa",
+      "site": "aliexpress",
+      "id_on_site": "3256808159122583",
+      "supplier": "CMJP fitness Store",
+      "title": "Magnetic Water Bottle Holder Gym Water Bottle Carrier Bag W/ Phone Pocket Handle Shoulder Strap 6 Built-in Magnets Water Bottle",
+      "category": "Exercise & Fitness > Strength Training",
+      "img": "https://ae01.alicdn.com/kf/See6b3e8e24bf417bbaa0273e95767528y.png",
+      "min_price": 15.15,
+      "max_price": 15.15,
+      "ship_cost": 0,
+      "ship_min": 11,
+      "ship_max": 11,
+      "warehouse": "US",
+      "rating": 4.9,
+      "rating_count": 13,
+      "orders_count": 0,
+      "view_count": 47152,
+      "import_count": 7358,
+      "updated_at": "2026-10-20T01:38:01Z",
+      "stock": null,
+      "best_variant_cost": 15.15,
+      "best_variant_ship": 0,
+      "ship_days": 11
+    },
+    {
+      "lotes": [
+        "raw_batch2.json",
+        "raw_batch4_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "68547a41a29bfe3de842386d",
+      "site": "aliexpress",
+      "id_on_site": "3256806932306252",
+      "supplier": "Cowaii 11 Store",
+      "tipo": "neck_stretcher",
+      "title": "Neck Stretcher Cervical Traction Pillow House Cervical Traction Tube Neck Devices Orthopedic Traction Pillow Relief Neck",
+      "img": "https://ae01.alicdn.com/kf/S69a92368d293412284917485227982285.jpg",
+      "min_price": 5.36,
+      "max_price": 5.36,
+      "ship_cost": 1.99,
+      "ship_min": 11,
+      "ship_max": 11,
+      "warehouse": "CN",
+      "rating": 4.2,
+      "rating_count": 115,
+      "orders_count": 1000,
+      "view_count": 104,
+      "import_count": 3,
+      "stock": 24,
+      "best_variant_cost": 5.36,
+      "best_variant_ship": 1.99,
+      "ship_days": 11,
+      "updated_at": "2026-10-21T12:05:13Z",
+      "created_at": "2025-06-18T14:00:40Z",
+      "description_excerpt": "Use for 15 minutes a day to relieve headaches, stiff neck, muscle tension and cramps, and joint pain. Effectively relieve chronic pain, pinched nerves, bulging discs.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch6_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "68751b380c5d7d7e2c0a65a9",
+      "site": "aliexpress",
+      "id_on_site": "3256808701005213",
+      "supplier": "DUTRIEUX Global Essentials Store",
+      "tipo": "eye_massager",
+      "title": "IntelliGlow Heated Eye Massager Bluetooth Music 180 Foldable Eye Care Device 5 Modes",
+      "img": "https://ae01.alicdn.com/kf/Sc7af11511e744e018e7f87ee9e7de8f9n.jpg",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 132,
+      "import_count": 4,
+      "stock": 30,
+      "best_variant_cost": 37.59,
+      "best_variant_ship": 2.99,
+      "ship_days": 10,
+      "warehouse": "US",
+      "updated_at": "2026-10-16T12:14:21Z",
+      "created_at": "2025-07-14T00:44:14Z",
+      "description_excerpt": "Heated compression 104-107F, air pressure + vibration, Bluetooth music, relieve eye fatigue, puffiness and migraines.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch7.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "6913fe7c3440ed00015ad844",
+      "site": "aliexpress",
+      "id_on_site": "3256809916000782",
+      "supplier": "HAOYUE BEAUTY Store",
+      "tipo": "ems_neck_massager",
+      "title": "Smart TENS+EMS Electric Neck Massager with Micro-Current Portable Hot Compress for Cervical Spine Shoulder And Neck Pain Relief",
+      "img": "https://ae01.alicdn.com/kf/S775faf7895ae494f9f13f966b19fd259b.jpg",
+      "rating": 4.4,
+      "rating_count": 9,
+      "orders_count": 16,
+      "view_count": 35,
+      "import_count": 2,
+      "stock": 28,
+      "best_variant_cost": 7.71,
+      "best_variant_ship": 1.99,
+      "ship_days": 11,
+      "warehouse": "CN",
+      "updated_at": "2026-10-11T12:16:25Z",
+      "created_at": "2025-11-10T14:50:08Z",
+      "description_excerpt": "Pendant-style TENS+EMS massager, 4 modes, 15 levels, 3-temperature heat in 5 s, for neck and shoulder pain.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch6_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "694c393fd54dcf0001a89862",
+      "site": "aliexpress",
+      "id_on_site": "3256806936562528",
+      "supplier": "UU Shopping Store",
+      "tipo": "acupressure_mat",
+      "title": "Acupressure Pillow With Storage Bag For Neck Back Foot Massage Pads Acupressure Mat Pillow Set",
+      "img": "https://ae01.alicdn.com/kf/S83607c64b78d4bea86f6f51f7b7ca71eu.jpg",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 61,
+      "import_count": 7,
+      "stock": 658,
+      "best_variant_cost": 20.1,
+      "best_variant_ship": 0,
+      "ship_days": 12,
+      "warehouse": "ALL",
+      "updated_at": "2026-10-03T12:20:06Z",
+      "created_at": "2025-12-23T02:41:23Z",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch5_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "694fb4a99ef1d600010f7ab2",
+      "site": "aliexpress",
+      "id_on_site": "1005006258401479",
+      "supplier": "Massage Supplies Shop Store",
+      "tipo": "ems_foot_mat",
+      "title": "Intelligent Massager EMS Pulse Micro Current Foot Massage Pad Charging Physical Therapy Foot Massage Pad",
+      "img": "https://ae01.alicdn.com/kf/S04e2a590bae247139d85ca9df530ab55j.png",
+      "min_price": 4.14,
+      "max_price": 5.02,
+      "ship_cost": 1.99,
+      "ship_min": 14,
+      "ship_max": 14,
+      "warehouse": "CN",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 135,
+      "import_count": 4,
+      "stock": 1009,
+      "best_variant_cost": 4.14,
+      "best_variant_ship": 1.99,
+      "ship_days": 14,
+      "updated_at": "2026-10-15T12:06:04Z",
+      "created_at": "2025-12-25T14:27:28Z",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch7.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "6967e12e888f5d0001325483",
+      "site": "aliexpress",
+      "id_on_site": "1005009707993571",
+      "supplier": "Health And Beauty Super Discount Store",
+      "tipo": "smart_posture",
+      "title": "Smart Posture Corrector Micro Vibration Posture Training Reminder Sensor Back Posture Neck Hump Corrector for Adult Kids",
+      "img": "https://ae01.alicdn.com/kf/S188cea82a89a49c585a4441cf0d34b6aa.jpg",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 138,
+      "import_count": 9,
+      "stock": 41,
+      "best_variant_cost": 8.17,
+      "best_variant_ship": 1.99,
+      "ship_days": 11,
+      "warehouse": "ALL",
+      "updated_at": "2026-10-15T12:03:11Z",
+      "created_at": "2026-01-14T06:40:35Z",
+      "description_excerpt": "High-precision chip monitors body inclination in real time and vibrates to remind; helps correct hunchback.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch2.json",
+        "raw_batch4_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "699ec803403bc300013b5468",
+      "site": "aliexpress",
+      "id_on_site": "1005009980640452",
+      "supplier": "Stone Fully Managed Store",
+      "tipo": "back_stretcher",
+      "title": "Lumbar stretcher device Back Stretcher for Back Adjustable Lower Back Massager Non slip Lumbar Massager for Body Recovery",
+      "img": "https://ae01.alicdn.com/kf/Se390b748810f4d22b28d549f7abc287ct.jpg",
+      "min_price": 6.66,
+      "max_price": 6.85,
+      "ship_cost": 1.99,
+      "ship_min": 12,
+      "ship_max": 12,
+      "warehouse": "CN",
+      "rating": 4.8,
+      "rating_count": 4,
+      "orders_count": 5,
+      "view_count": 42,
+      "import_count": 3,
+      "stock": 18,
+      "best_variant_cost": 6.83,
+      "best_variant_ship": 1.99,
+      "ship_days": 12,
+      "updated_at": "2026-10-17T12:12:08Z",
+      "created_at": "2026-02-23T10:58:31Z",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch2.json",
+        "raw_batch4_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "69b827db7b8c9c0001047c52",
+      "site": "aliexpress",
+      "id_on_site": "3256810392399344",
+      "supplier": "Unique Made6 Store",
+      "tipo": "neck_stretcher",
+      "title": "Neck Stretcher and Cervical Traction Device, Cervical Neck Shoulder Stretcher Massage Pillow Traction Device Muscle Relaxation",
+      "img": "https://ae01.alicdn.com/kf/S0d6fd2d0c2764dbcbbce4df32b9b4b0et.jpg",
+      "min_price": 6.08,
+      "max_price": 6.37,
+      "ship_cost": 1.99,
+      "ship_min": 10,
+      "ship_max": 10,
+      "warehouse": "US",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": null,
+      "view_count": 53,
+      "import_count": 1,
+      "stock": 5,
+      "best_variant_cost": 6.08,
+      "best_variant_ship": 1.99,
+      "ship_days": 10,
+      "updated_at": "2026-10-21T12:05:17Z",
+      "created_at": "2026-03-15T00:49:09Z",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch7.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "9f791b6c8fe1e678945b25f2",
+      "site": "aliexpress",
+      "id_on_site": "1005007266999305",
+      "supplier": "GOMOREON Official Store",
+      "tipo": "plantar_splint",
+      "title": "1Pcs Plantar Fasciitis Night Splint, Drop Foot Orthopedic Brace, Plantar Fasciitis Relief Night Splint, Adjustable Foot Brace",
+      "img": "https://ae01.alicdn.com/kf/Sad1e4b80fdd04e67bdd0073d1ed92d1ek.jpg",
+      "rating": 5,
+      "rating_count": 8,
+      "orders_count": 53,
+      "view_count": 2,
+      "import_count": 0,
+      "stock": 13,
+      "best_variant_cost": 5.39,
+      "best_variant_ship": 1.99,
+      "ship_days": 11,
+      "warehouse": "CN",
+      "updated_at": "2026-10-18T02:03:06Z",
+      "created_at": "2026-09-19T10:20:58Z",
+      "description_excerpt": "Rotating knob adjusts foot angle 30-100 degrees; stretches the plantar fascia overnight to relieve heel pain.",
+      "is_deleted": false
+    },
+    {
+      "lotes": [
+        "raw_batch3.json",
+        "raw_batch5_metricas.json",
+        "raw_batch8_refresco.json"
+      ],
+      "id": "aed2a3f29995cb20a285e6bd",
+      "site": "aliexpress",
+      "id_on_site": "1005006058085070",
+      "supplier": "KWEEPFULL Official Store",
+      "tipo": "bunion_corrector",
+      "title": "1Pcs Bunion Corrector for Women Men, Slip Proofing Version Bunion Toe Separator, Orthopedic Bunion Splint for Big Toe Pain Relief",
+      "img": "https://ae01.alicdn.com/kf/Se0160b780a49464095675a9eb534ec96w.jpg",
+      "min_price": 3.65,
+      "max_price": 3.92,
+      "ship_cost": 1.99,
+      "ship_min": 13,
+      "ship_max": 13,
+      "warehouse": "CN",
+      "rating": null,
+      "rating_count": null,
+      "orders_count": 1,
+      "view_count": 3,
+      "import_count": 0,
+      "stock": 2962,
+      "best_variant_cost": 3.65,
+      "best_variant_ship": 1.99,
+      "ship_days": 13,
+      "updated_at": "2026-10-18T01:52:43Z",
+      "created_at": "2026-06-21T21:12:54Z",
+      "is_deleted": false
+    }
+  ],
+  "anclas_competencia": {
+    "grip_trainer": [
+      {
+        "id": "6221673bccb7b1c430e265f6",
+        "seller": "NIYIKOW",
+        "title": "NIYIKOW Grip Strength Trainer",
+        "price": 6.99
+      }
+    ],
+    "back_massager": [
+      {
+        "id": "6754f6f3b537cecf6a6cfde2",
+        "seller": "6754f6f3b537cecf6a6cfde2",
+        "title": "Back Massager Chair Pad with Heat, 5 Vibration Modes",
+        "price": 62.99
+      }
+    ],
+    "ankle_weights": [
+      {
+        "id": "62b7f81dfb97171e8d7a7d32",
+        "seller": "62b7f81dfb97171e8d7a7d32",
+        "title": "Fragraim Adjustable Ankle Weights",
+        "price": 24.99
+      }
+    ],
+    "workout_gloves": [
+      {
+        "id": "6200a0ae9f14e2bdbc2f1458",
+        "seller": "6200a0ae9f14e2bdbc2f1458",
+        "title": "LIFECT Freedom Workout Gloves",
+        "price": 8.99
+      }
+    ],
+    "wrist_wraps": [
+      {
+        "id": "62c526031712628178a6c8cc",
+        "seller": "62c526031712628178a6c8cc",
+        "title": "FIGHTECH Wrist Wraps for WeightLifting",
+        "price": 9.99
+      }
+    ],
+    "neck_stretcher": [
+      {
+        "id": "40b1422ab8c3d969a6589276",
+        "seller": "EverRelief",
+        "title": "Cervical Traction Device, Inflatable Neck Stretcher & Traction Pillow",
+        "price": 24.99
+      },
+      {
+        "id": "925d6c3df8931a8ee453ef4f",
+        "seller": "Comfortlife LLC",
+        "title": "ComfortLife Neck Stretcher for Pain Relief (Black)",
+        "price": 14.99
+      },
+      {
+        "id": "5f8a3ad62586d5dcf7564120",
+        "seller": "Comfortlife LLC",
+        "title": "Neck Stretcher for Pain Relief (Blue)",
+        "price": 14.99
+      },
+      {
+        "id": "052b992b07905eecf6395af7",
+        "seller": "Comfortlife LLC",
+        "title": "ComfortLife Small Neck Stretcher Pillow (Grey)",
+        "price": 13.99
+      }
+    ],
+    "posture_corrector": [
+      {
+        "id": "2ff6b2928eab5a714338ea91",
+        "seller": "Rismooth US",
+        "title": "Posture corrector",
+        "price": 29.99
+      },
+      {
+        "id": "d7592485019a005f12ff56da",
+        "seller": "Chazcool",
+        "title": "Back Straightener Posture Corrector",
+        "price": 7.29
+      },
+      {
+        "id": "71c5306bcefed603169dddad",
+        "seller": "CALVINER",
+        "title": "Posture Corrector Adjustable Back Brace",
+        "price": 12.99
+      }
+    ],
+    "ems_neck_massager": [
+      {
+        "id": "c339b63074cabc28c03c5501",
+        "seller": "FreedomForce",
+        "title": "Neck Massager with Heat",
+        "price": 19.99
+      },
+      {
+        "id": "18e6de3dc8a2260be777a9cb",
+        "seller": "SIMUSI",
+        "title": "Wireless TENS Unit Muscle Stimulator 18 Modes",
+        "price": 99.99
+      }
+    ],
+    "acupressure_mat": [
+      {
+        "id": "100896ab847bc7157a07f06e",
+        "seller": "SHSH trade group",
+        "title": "Kuznetsova Acupressure Mat",
+        "price": 19.49
+      },
+      {
+        "id": "0dc9d484b6bf2c4375847fc8",
+        "seller": "CXCTCT",
+        "title": "Extra Long Yoga Acupressure Mat Set + Pillow",
+        "price": 80.29
+      },
+      {
+        "id": "fa41f6351733f85dfc2b93e8",
+        "seller": "OLEKSTOR",
+        "title": "Kuznetsov Acupressure Massage Mat",
+        "price": 14.99
+      }
+    ],
+    "back_stretcher": [
+      {
+        "id": "4bcd7e9ce6b98c92e7fbc354",
+        "seller": "ArtAn Balance",
+        "title": "Adjustable Back Stretcher for Lower Back Pain Relief",
+        "price": 25.95
+      },
+      {
+        "id": "6fd12374d5baf16ac2780981",
+        "seller": "Joyce&KF",
+        "title": "WANYIDA Lumbar Orthotic Traction Roll Device",
+        "price": 31.99
+      },
+      {
+        "id": "506f85e8fcae2ebeb6744735",
+        "seller": "Luluactivate",
+        "title": "ChiFit Multi-Level Back Stretching Device",
+        "price": 15.99
+      }
+    ],
+    "bunion_corrector": [
+      {
+        "id": "f786fc3b71906f220bbc10b6",
+        "seller": "EliaValth",
+        "title": "Adjustable Bunion Corrector with Knob",
+        "price": 13.98
+      },
+      {
+        "id": "ddbb67a8cf634fd37dcdd670",
+        "seller": "Heir",
+        "title": "QICI Bunion Corrector 1 Pair",
+        "price": 13.99
+      },
+      {
+        "id": "716ea91d71d8d1398d4377f8",
+        "seller": "GLOSERIN",
+        "title": "Treatmedy Bunion Fix Adjustable Toe Straightener",
+        "price": 21.7
+      },
+      {
+        "id": "97903ad9d63f783d7ed468f4",
+        "seller": "Mayrarose",
+        "title": "Bunion Corrector Big Toe Straightener BC10",
+        "price": 16.99
+      }
+    ],
+    "sleep_aid": [
+      {
+        "id": "e8ce9f4bbe47465f08fc0c75",
+        "seller": "Youthleaf",
+        "title": "Handheld Sleep Aid Device Sleep Machine Insomnia Relief",
+        "price": 21.99
+      },
+      {
+        "id": "61dadc7da4be99ae0def0f71",
+        "seller": "shenzhenshiguanglongdianzimaoyiyouxiangongsi",
+        "title": "Handheld Sleep Device Sleep Instrument Sleep Aid Machine",
+        "price": 27.97
+      },
+      {
+        "id": "a7d09928ebd3674d8fda1f14",
+        "seller": "Qiuhua Technology Co., Ltd.",
+        "title": "Sleep Aid Device Handheld Low Frequency Pulse Microcurrent",
+        "price": 20.98
+      }
+    ],
+    "knee_sleeve": [
+      {
+        "id": "52f57eccf673c8c3c7a85705",
+        "seller": "Jeff's Store",
+        "title": "Wonder Care 2-Pack Bamboo Knee Compression Sleeve (B0FMYLVYR6)",
+        "price": 19.99
+      },
+      {
+        "id": "5101508b45f38f91b9cfd9eb",
+        "seller": "Wondercare",
+        "title": "Wonder Care 2-Pack Bamboo Knee Compression Sleeve (B0GY4NB1V4)",
+        "price": 20.99
+      },
+      {
+        "id": "cc95c4888fb380d2344f7375",
+        "seller": "Wondercare",
+        "title": "Wonder Care 2-Pack Bamboo Knee Compression Sleeve (B0DTT8PWZG)",
+        "price": 16.49
+      }
+    ],
+    "foam_roller": [
+      {
+        "id": "c391029a4e51df28f75307b4",
+        "seller": "Jeff's Store",
+        "title": "Gaiam Restore Foam Roller 18\" (Purple)",
+        "price": 23.75
+      },
+      {
+        "id": "a282828944252521685af9a3",
+        "seller": "Jeff's Store",
+        "title": "Gaiam Restore Foam Roller 18\" (Grey)",
+        "price": 29.99
+      },
+      {
+        "id": "b338f68402461910c4e857d9",
+        "seller": "FITNATION, LLC",
+        "title": "Fitizen Foam Roller (FitNation)",
+        "price": 15.99
+      }
+    ],
+    "ems_foot_mat": [
+      {
+        "id": "40e1b795633061acd1a33a04",
+        "seller": "EASEZEN",
+        "title": "EaseZen EMS Foot Massager for Neuropathy, Plantar Fasciitis (B0D4R6FFXC)",
+        "price": 79.99
+      },
+      {
+        "id": "13fdca2e24e05b1c364d8b09",
+        "seller": "EASEZEN",
+        "title": "EaseZen EMS Foot Massager for Neuropathy, Plantar Fasciitis (B0D2RJ8SCN)",
+        "price": 79.99
+      },
+      {
+        "id": "cb5e80ecb805d383580115c6",
+        "seller": "DDDTOP",
+        "title": "EMS Foot Massager for Neuropathy FSA Eligible 25 Modes",
+        "price": 129.99
+      },
+      {
+        "id": "13f7586dc72a9a6d58e703ca",
+        "seller": "zhmin",
+        "title": "TENS / EMS Foot Stimulator for Lower Extremity Pain",
+        "price": 39.99
+      },
+      {
+        "id": "67b9bb266c5e7803aabf2adc",
+        "seller": "zdasosr Massager",
+        "title": "TENS + EMS Foot Massager",
+        "price": 29.99
+      }
+    ],
+    "eye_massager": [
+      {
+        "id": "707b4a48bf40622f01769a37",
+        "seller": "GLO24K",
+        "title": "GLO24K Heated Eye Massager Wand with Vibration",
+        "price": 49.0
+      },
+      {
+        "id": "98002bbca81b82dadb3ce884",
+        "seller": "Renpho Wellness",
+        "title": "RENPHO Eyeris 3 Eye Massager with Heat and Cooling",
+        "price": 79.99
+      }
+    ],
+    "scalp_massager": [
+      {
+        "id": "67527b9efc083564e032e488",
+        "seller": "DONGJINGRE Direct",
+        "title": "Manual Scalp Massager Sandalwood Five Claw",
+        "price": 7.9
+      },
+      {
+        "id": "7e6eb27233a27a222b173288",
+        "seller": "HeeLang",
+        "title": "Healifty 2-Pack Scalp Massage Combs",
+        "price": 11.79
+      },
+      {
+        "id": "d91fb6bd968b58f8d020df31",
+        "seller": "WillowTrading",
+        "title": "3 Package Wooden Scalp Massager",
+        "price": 5.24
+      }
+    ],
+    "smart_posture": [
+      {
+        "id": "4f2e68dc611403edbb6f927e",
+        "seller": "Caliora US Shop",
+        "title": "Upgraded Smart Posture Corrector with Vibration Posture Reminder",
+        "price": 39.99
+      },
+      {
+        "id": "52cbc790a10c2e221502c1f4",
+        "seller": "PepBuff",
+        "title": "P1 Posture Corrector Strapless, Vibration Reminder, Rechargeable",
+        "price": 49.99
+      }
+    ],
+    "nasal_dilator": [
+      {
+        "id": "272337506fb0095f6c08f83f",
+        "seller": "mingtingyouxuan",
+        "title": "Breathe Nasal Strips Extra Strength 30 PCS",
+        "price": 29.99
+      },
+      {
+        "id": "f7bbd6875177f1d99b34353b",
+        "seller": "NAIZHEN",
+        "title": "Nasal Strips 120 Count for Snoring",
+        "price": 19.99
+      },
+      {
+        "id": "10e25313624d21bdf22814ac",
+        "seller": "Finepal Store",
+        "title": "Non-Magnetic Nasal Bands for Snoring & Breathing Support, Black",
+        "price": 29.99
+      }
+    ],
+    "plantar_splint": [
+      {
+        "id": "0162429753abcadd0ea7c9f4",
+        "seller": "ANSUSIC-US",
+        "title": "Plantar Fasciitis Night Splint Adjustable (Black)",
+        "price": 26.88
+      },
+      {
+        "id": "81d570da78f972ef858b72a4",
+        "seller": "ANSUSIC-US",
+        "title": "Plantar Fasciitis Night Splint Upgrade 3 (Blue)",
+        "price": 26.88
+      },
+      {
+        "id": "2100694cb7c99d4c95952df5",
+        "seller": "BraceAbility",
+        "title": "BraceAbility Padded 90 Degree Plantar Fasciitis Boot",
+        "price": 46.99
+      },
+      {
+        "id": "2a6620a4b514acec82f30887",
+        "seller": "ELESIK-US",
+        "title": "Plantar Fasciitis Night Splint, Brace and Support",
+        "price": 19.93
+      }
+    ],
+    "vibration_mini_massager": [
+      {
+        "id": "f7026b775a37bd14af6a4bae",
+        "seller": "GH Minnie",
+        "title": "Mini Wand Massager Cordless (vibracion, no EMS: no se usa como ancla de EMS)",
+        "price": 15.99
+      },
+      {
+        "id": "b66480bc3dcd80ddd76e3fa5",
+        "seller": "Luoc store",
+        "title": "Mini Handheld Electric Back Massager (vibracion, no EMS: no se usa como ancla de EMS)",
+        "price": 9.99
+      }
+    ],
+    "shapewear": [
+      {
+        "id": "winning:662264c3:1",
+        "seller": "jkeveningwear.com.au (Shopify)",
+        "title": "Seamless, High Waisted, Shapewear, Body Shaper",
+        "price": 43
+      },
+      {
+        "id": "winning:662264c3:2",
+        "seller": "jolievaughan.com (Shopify)",
+        "title": "360 Full Body Shapewear",
+        "price": 32
+      },
+      {
+        "id": "winning:662264c3:3",
+        "seller": "strap-slope.myshopify.com (Shopify)",
+        "title": "Seamless Women High Waist Slimming Tummy Control Knickers",
+        "price": 14.51
+      },
+      {
+        "id": "winning:662264c3:4",
+        "seller": "hauteflair.com (Shopify)",
+        "title": "Lower Tummy Control Shapewear",
+        "price": 25.95
+      }
+    ]
+  }
+}

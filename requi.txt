@@ -1,0 +1,19 @@
+req-dropshop Actúa como un ingeniero de datos y experto en e-commerce. Tu tarea es interactuar con el entorno local para extraer, analizar y visualizar datos del catálogo de "Salud y Fitness" usando nuestro conector de AutoDS. 
+
+Por favor, ejecuta el siguiente flujo de trabajo paso a paso:
+
+1. EJECUCIÓN Y EXTRACCIÓN: Localiza y utiliza el script o API del conector de AutoDS en este directorio para descargar el catálogo de productos de Salud y Fitness. Si el script no existe, escribe uno en Python o Node.js que se conecte a la API de AutoDS para extraer los datos en un JSON local.
+
+2. FILTRADO LÓGICO: Procesa los datos extraídos y clasifícalos basándote ESTRICTAMENTE en estos 4 criterios:
+   - Criterio 1 (Solución): El producto resuelve un dolor o problema físico evidente (evalúa el título y descripción).
+   - Criterio 2 (Factor Wow): No es genérico. Tiene un ángulo novedoso o curioso que detiene el scroll.
+   - Criterio 3 (Rentabilidad 3x): Calcula programáticamente que `Precio de Venta Recomendado >= (Costo de la mejor variante + Costo de envío) * 3`.
+   - Criterio 4 (Validación): La metadata muestra pedidos recientes y un volumen de ventas activo.
+
+3. GENERACIÓN DEL ENTREGABLE: Escribe y guarda en este directorio un archivo llamado `informe_productos_ganadores.html`. El archivo debe ser interactivo (usa Tailwind CSS vía CDN y Vanilla JS) y cumplir con esta estructura:
+   - Sección A: "Top Ganadores" (cumplen los 4 criterios). Ordénalos de mejor a peor según su margen de beneficio y volumen de ventas.
+   - Sección B: "En Observación" (cumplen 2 o 3 criterios). Indica claramente con una etiqueta roja qué criterio específico les falta.
+   - Diseño: Grid de tarjetas (cards) por producto.
+   - Datos por tarjeta: Fotografía (etiqueta <img>), Costo real (de la variante óptima), Precio de venta recomendado (anclado a la competencia), Margen neto calculado, Pruebas de venta (número de pedidos/reviews) y Tiempo de envío.
+
+Lee el directorio, ejecuta el código de extracción, filtra los datos y genera el archivo HTML final. Hazme un resumen en la consola cuando el archivo HTML esté creado y listo para abrirse en el navegador.

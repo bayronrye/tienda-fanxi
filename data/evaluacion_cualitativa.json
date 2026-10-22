@@ -1,0 +1,36 @@
+{
+  "descripcion": "Criterios 1 y 2 de requi.txt, evaluados a partir del título y la descripción que devolvió AutoDS. Los criterios 3 y 4 los calcula filtrar_catalogo.py.",
+  "rubrica": {
+    "c1_solucion": "Cumple si el título o la descripción nombran un dolor o problema físico concreto (cervical, lumbar, pies, rodilla, juanete, fascitis, insomnio, ronquidos, postura). No cumple si el beneficio es estético o de relajación genérica.",
+    "c2_factor_wow": "Cumple si el producto tiene un mecanismo demostrable en un video corto que no es un commodity (EMS/microcorriente, sensor inteligente, tracción con efecto visible, imán, calor + Bluetooth). No cumple si es una ortesis o soporte de farmacia, manga, faja, rodillo, esterilla o peine con cientos de listados equivalentes."
+  },
+  "productos": {
+    "68547a41a29bfe3de842386d": {"tipo":"neck_stretcher","c1":true,"c1_motivo":"Alivia rigidez cervical, cefalea tensional y dolor por nervio pinzado (descripción).","c2":true,"c2_motivo":"Almohada de tracción en C: efecto «quiropráctico en casa» visible en 3 segundos de video."},
+    "69b827db7b8c9c0001047c52": {"tipo":"neck_stretcher","c1":true,"c1_motivo":"Tracción cervical para dolor de cuello y hombros.","c2":true,"c2_motivo":"Almohada de tracción en C: efecto «quiropráctico en casa» visible en video."},
+    "678ab5c318febb58d8ce3afe": {"tipo":"ems_neck_massager","c1":true,"c1_motivo":"Dolor y fatiga muscular en cuello, espalda y cintura.","c2":true,"c2_motivo":"Parche EMS sin cables de 8 modos: la contracción muscular visible detiene el scroll."},
+    "6913fe7c3440ed00015ad844": {"tipo":"ems_neck_massager","c1":true,"c1_motivo":"Dolor cervical y de hombros.","c2":true,"c2_motivo":"Colgante TENS+EMS con calor en 5 s; formato tipo joya poco visto."},
+    "6171246586057dd48d6c674f": {"tipo":"posture_corrector","c1":true,"c1_motivo":"Postura encorvada y dolor de espalda.","c2":false,"c2_motivo":"Faja correctora de tela: commodity con cientos de listados."},
+    "6967e12e888f5d0001325483": {"tipo":"smart_posture","c1":true,"c1_motivo":"Joroba y dolor de espalda por mala postura.","c2":true,"c2_motivo":"Sensor que vibra al encorvarte: gadget «entrenador de postura» novedoso."},
+    "67520ec1908790c8eaeb5131": {"tipo":"sleep_aid","c1":true,"c1_motivo":"Insomnio y ansiedad nocturna.","c2":true,"c2_motivo":"Dispositivo de mano por microcorriente; ángulo «dormir sin pastillas»."},
+    "67520f394d17c33acd191110": {"tipo":"sleep_aid","c1":true,"c1_motivo":"Insomnio y ansiedad nocturna.","c2":true,"c2_motivo":"Dispositivo de mano por microcorriente; ángulo «dormir sin pastillas»."},
+    "699ec803403bc300013b5468": {"tipo":"back_stretcher","c1":true,"c1_motivo":"Dolor lumbar y descompresión de columna.","c2":true,"c2_motivo":"Tabla de arco de 3 niveles con efecto de estiramiento visible."},
+    "410759ed1c8776e93b3fef57": {"tipo":"bunion_corrector","c1":true,"c1_motivo":"Dolor por juanete (hallux valgus).","c2":false,"c2_motivo":"Ortesis de farmacia; la perilla de ajuste no la diferencia lo suficiente."},
+    "aed2a3f29995cb20a285e6bd": {"tipo":"bunion_corrector","c1":true,"c1_motivo":"Dolor por juanete (hallux valgus).","c2":false,"c2_motivo":"Separador y manga textil: commodity."},
+    "66abb11677c23e9dbffac04b": {"tipo":"ems_foot_mat","c1":true,"c1_motivo":"Dolor y fatiga de pies por estar de pie, mala circulación (descripción).","c2":true,"c2_motivo":"Alfombrilla EMS plegable: los músculos del pie se mueven solos en video."},
+    "694fb4a99ef1d600010f7ab2": {"tipo":"ems_foot_mat","c1":true,"c1_motivo":"Fatiga de piernas y molestias en tendón de Aquiles y gemelos.","c2":true,"c2_motivo":"Alfombrilla EMS plegable con pantalla: efecto visible en video."},
+    "679de2bd48e51c1ab9d6c99d": {"tipo":"ems_foot_mat","c1":true,"c1_motivo":"Dolor y fatiga de pies, circulación.","c2":true,"c2_motivo":"Alfombrilla EMS plegable: efecto visible en video."},
+    "68751b380c5d7d7e2c0a65a9": {"tipo":"eye_massager","c1":true,"c1_motivo":"Fatiga ocular, ojos secos y migraña.","c2":true,"c2_motivo":"Antifaz con calor, presión de aire y música Bluetooth."},
+    "694c393fd54dcf0001a89862": {"tipo":"acupressure_mat","c1":true,"c1_motivo":"Tensión muscular de cuello y espalda.","c2":false,"c2_motivo":"Esterilla de pinchos muy saturada desde hace años."},
+    "6779fa124b9b3c0b365f22a1": {"tipo":"knee_sleeve","c1":true,"c1_motivo":"Dolor y protección de rodilla en deporte.","c2":false,"c2_motivo":"Rodillera de compresión genérica."},
+    "66eb6ebb0680f6aa8a84f281": {"tipo":"foam_roller","c1":true,"c1_motivo":"Contracturas y puntos gatillo.","c2":false,"c2_motivo":"Rodillo de espuma genérico."},
+    "6754af6321889a9abac129c4": {"tipo":"scalp_massager","c1":false,"c1_motivo":"Relajación y antiestrés, no un dolor físico concreto.","c2":false,"c2_motivo":"Masajeador «pulpo» de alambre: commodity."},
+    "6754ad7ba216fb1572b858de": {"tipo":"nasal_dilator","c1":true,"c1_motivo":"Ronquidos y congestión nasal.","c2":true,"c2_motivo":"Dilatador magnético externo: novedad frente a las tiras clásicas."},
+    "9f791b6c8fe1e678945b25f2": {"tipo":"plantar_splint","c1":true,"c1_motivo":"Dolor de talón por fascitis plantar.","c2":false,"c2_motivo":"Férula ortopédica de farmacia."},
+    "662264c30a70d9515281b1f2": {"tipo":"shapewear","c1":false,"c1_motivo":"Moldeado estético, no resuelve un dolor físico.","c2":false,"c2_motivo":"Faja reductora genérica."},
+    "67e6a2f1d126c2dc9986dcfa": {"excluir":"Sin ancla de competencia y fuera del nicho de dolor (portabotellas magnético)."},
+    "65cea0095131e07687f79666": {"excluir":"Sin ancla de competencia (aro de pilates)."},
+    "65b3b172a4f299ee16d54579": {"excluir":"Sin ancla de competencia ni métricas de venta (bandas CJ)."},
+    "66d5495a37d3bd2e803216c2": {"excluir":"Sin ancla de competencia ni documento completo (bandas de glúteo)."},
+    "6595db17da0df92307ebc572": {"excluir":"No se consultó el documento completo (rodillo 26/33 cm): sin métricas de venta."}
+  }
+}

@@ -1,0 +1,1671 @@
+{
+  "parametros": {
+    "fecha_extraccion": "2026-10-21",
+    "fecha_anclas": "2026-10-21",
+    "multiplicador_rentabilidad": 3,
+    "min_pedidos": 50,
+    "max_dias_sin_actualizar": 14,
+    "comision_pago": "2.9% + $0.30",
+    "min_vendedores_ancla_confianza_alta": 3
+  },
+  "metodologia": {
+    "c1_solucion": "Evaluación del título y la descripción (data/evaluacion_cualitativa.json).",
+    "c2_factor_wow": "Evaluación del título y la descripción (data/evaluacion_cualitativa.json).",
+    "c3_rentabilidad": "precio_recomendado >= (costo de la variante mas barata en stock + envio) * 3. precio_recomendado = mediana por vendedor de los listados de la competencia del mismo tipo.",
+    "c4_validacion": "pedidos >= 50, stock > 0 y listado actualizado en los últimos 14 días. AutoDS no da pedidos por fecha: la recencia se aproxima con la última actualización del listado.",
+    "margen_neto": "precio_recomendado - costo - envio - comision de pago (sin publicidad ni devoluciones).",
+    "orden": "score = margen_neto * log10(pedidos + 10)."
+  },
+  "resumen": {
+    "top_ganadores": 1,
+    "en_observacion": 13,
+    "descartados": 7,
+    "excluidos": 6
+  },
+  "top_ganadores": [
+    {
+      "id": "66abb11677c23e9dbffac04b",
+      "titulo": "EMS Foot Massager Mat Electric TENS Feet Massager Pad Foldable Massage Mat Muscle Stimulation",
+      "tipo": "ems_foot_mat",
+      "proveedor": "VOGUISH Global Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005005069849455.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/66abb11677c23e9dbffac04b",
+      "imagen": "https://ae01.alicdn.com/kf/Sc4dbd0cad8364adfb6452d5d3ac1e47f5.jpg",
+      "costo_variante": 9.49,
+      "envio": 1.99,
+      "costo_total": 11.48,
+      "dias_envio": 13,
+      "almacen": "CN",
+      "precio_recomendado": 59.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 4,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "40e1b795633061acd1a33a04",
+            "seller": "EASEZEN",
+            "title": "EaseZen EMS Foot Massager for Neuropathy, Plantar Fasciitis (B0D4R6FFXC)",
+            "price": 79.99
+          },
+          {
+            "id": "13fdca2e24e05b1c364d8b09",
+            "seller": "EASEZEN",
+            "title": "EaseZen EMS Foot Massager for Neuropathy, Plantar Fasciitis (B0D2RJ8SCN)",
+            "price": 79.99
+          },
+          {
+            "id": "cb5e80ecb805d383580115c6",
+            "seller": "DDDTOP",
+            "title": "EMS Foot Massager for Neuropathy FSA Eligible 25 Modes",
+            "price": 129.99
+          },
+          {
+            "id": "13f7586dc72a9a6d58e703ca",
+            "seller": "zhmin",
+            "title": "TENS / EMS Foot Stimulator for Lower Extremity Pain",
+            "price": 39.99
+          },
+          {
+            "id": "67b9bb266c5e7803aabf2adc",
+            "seller": "zdasosr Massager",
+            "title": "TENS + EMS Foot Massager",
+            "price": 29.99
+          }
+        ]
+      },
+      "umbral_3x": 34.44,
+      "multiplo": 5.23,
+      "comision_pago": 2.04,
+      "margen_neto": 46.47,
+      "margen_pct": 77.46,
+      "pedidos": 164,
+      "reviews": 115,
+      "rating": 4.6,
+      "stock": 77,
+      "dias_desde_actualizacion": 1,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Dolor y fatiga de pies por estar de pie, mala circulación (descripción)."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Alfombrilla EMS plegable: los músculos del pie se mueven solos en video."
+        },
+        "c3": {
+          "cumple": true,
+          "motivo": "Precio $59.99 >= 3 x ($9.49 + $1.99) = $34.44"
+        },
+        "c4": {
+          "cumple": true,
+          "motivo": "164 pedidos (mínimo 50), 115 reviews, stock 77, listado actualizado hace 1 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 4,
+      "faltantes": [],
+      "score": 104.12
+    }
+  ],
+  "en_observacion": [
+    {
+      "id": "6913fe7c3440ed00015ad844",
+      "titulo": "Smart TENS+EMS Electric Neck Massager with Micro-Current Portable Hot Compress for Cervical Spine Shoulder And Neck Pain Relief",
+      "tipo": "ems_neck_massager",
+      "proveedor": "HAOYUE BEAUTY Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/3256809916000782.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/6913fe7c3440ed00015ad844",
+      "imagen": "https://ae01.alicdn.com/kf/S775faf7895ae494f9f13f966b19fd259b.jpg",
+      "costo_variante": 7.71,
+      "envio": 1.99,
+      "costo_total": 9.7,
+      "dias_envio": 11,
+      "almacen": "CN",
+      "precio_recomendado": 59.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 2,
+        "confianza": "baja",
+        "listados": [
+          {
+            "id": "c339b63074cabc28c03c5501",
+            "seller": "FreedomForce",
+            "title": "Neck Massager with Heat",
+            "price": 19.99
+          },
+          {
+            "id": "18e6de3dc8a2260be777a9cb",
+            "seller": "SIMUSI",
+            "title": "Wireless TENS Unit Muscle Stimulator 18 Modes",
+            "price": 99.99
+          }
+        ]
+      },
+      "umbral_3x": 29.1,
+      "multiplo": 6.18,
+      "comision_pago": 2.04,
+      "margen_neto": 48.25,
+      "margen_pct": 80.43,
+      "pedidos": 16,
+      "reviews": 9,
+      "rating": 4.4,
+      "stock": 28,
+      "dias_desde_actualizacion": 10,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Dolor cervical y de hombros."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Colgante TENS+EMS con calor en 5 s; formato tipo joya poco visto."
+        },
+        "c3": {
+          "cumple": true,
+          "motivo": "Precio $59.99 >= 3 x ($7.71 + $1.99) = $29.10"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "16 pedidos (mínimo 50), 9 reviews, stock 28, listado actualizado hace 10 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 3,
+      "faltantes": [
+        "Validación"
+      ],
+      "score": 68.27
+    },
+    {
+      "id": "694fb4a99ef1d600010f7ab2",
+      "titulo": "Intelligent Massager EMS Pulse Micro Current Foot Massage Pad Charging Physical Therapy Foot Massage Pad",
+      "tipo": "ems_foot_mat",
+      "proveedor": "Massage Supplies Shop Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005006258401479.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/694fb4a99ef1d600010f7ab2",
+      "imagen": "https://ae01.alicdn.com/kf/S04e2a590bae247139d85ca9df530ab55j.png",
+      "costo_variante": 4.14,
+      "envio": 1.99,
+      "costo_total": 6.13,
+      "dias_envio": 14,
+      "almacen": "CN",
+      "precio_recomendado": 59.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 4,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "40e1b795633061acd1a33a04",
+            "seller": "EASEZEN",
+            "title": "EaseZen EMS Foot Massager for Neuropathy, Plantar Fasciitis (B0D4R6FFXC)",
+            "price": 79.99
+          },
+          {
+            "id": "13fdca2e24e05b1c364d8b09",
+            "seller": "EASEZEN",
+            "title": "EaseZen EMS Foot Massager for Neuropathy, Plantar Fasciitis (B0D2RJ8SCN)",
+            "price": 79.99
+          },
+          {
+            "id": "cb5e80ecb805d383580115c6",
+            "seller": "DDDTOP",
+            "title": "EMS Foot Massager for Neuropathy FSA Eligible 25 Modes",
+            "price": 129.99
+          },
+          {
+            "id": "13f7586dc72a9a6d58e703ca",
+            "seller": "zhmin",
+            "title": "TENS / EMS Foot Stimulator for Lower Extremity Pain",
+            "price": 39.99
+          },
+          {
+            "id": "67b9bb266c5e7803aabf2adc",
+            "seller": "zdasosr Massager",
+            "title": "TENS + EMS Foot Massager",
+            "price": 29.99
+          }
+        ]
+      },
+      "umbral_3x": 18.39,
+      "multiplo": 9.79,
+      "comision_pago": 2.04,
+      "margen_neto": 51.82,
+      "margen_pct": 86.38,
+      "pedidos": null,
+      "reviews": null,
+      "rating": null,
+      "stock": 1009,
+      "dias_desde_actualizacion": 6,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Fatiga de piernas y molestias en tendón de Aquiles y gemelos."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Alfombrilla EMS plegable con pantalla: efecto visible en video."
+        },
+        "c3": {
+          "cumple": true,
+          "motivo": "Precio $59.99 >= 3 x ($4.14 + $1.99) = $18.39"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 1009, listado actualizado hace 6 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 3,
+      "faltantes": [
+        "Validación"
+      ],
+      "score": 51.82
+    },
+    {
+      "id": "678ab5c318febb58d8ce3afe",
+      "titulo": "Electric EMS Neck Massager Mini Cervical Back Patch Stimulator Massageador Mat Portable Gel Pad Stickers Slim",
+      "tipo": "ems_neck_massager",
+      "proveedor": "Au MIHJUSFDH Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005007355162340.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/678ab5c318febb58d8ce3afe",
+      "imagen": "https://ae01.alicdn.com/kf/Sa904396baea24c489138b593597b7a26j.jpg",
+      "costo_variante": 4.55,
+      "envio": 1.99,
+      "costo_total": 6.54,
+      "dias_envio": 13,
+      "almacen": "CN",
+      "precio_recomendado": 59.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 2,
+        "confianza": "baja",
+        "listados": [
+          {
+            "id": "c339b63074cabc28c03c5501",
+            "seller": "FreedomForce",
+            "title": "Neck Massager with Heat",
+            "price": 19.99
+          },
+          {
+            "id": "18e6de3dc8a2260be777a9cb",
+            "seller": "SIMUSI",
+            "title": "Wireless TENS Unit Muscle Stimulator 18 Modes",
+            "price": 99.99
+          }
+        ]
+      },
+      "umbral_3x": 19.62,
+      "multiplo": 9.17,
+      "comision_pago": 2.04,
+      "margen_neto": 51.41,
+      "margen_pct": 85.7,
+      "pedidos": null,
+      "reviews": null,
+      "rating": null,
+      "stock": 29,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Dolor y fatiga muscular en cuello, espalda y cintura."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Parche EMS sin cables de 8 modos: la contracción muscular visible detiene el scroll."
+        },
+        "c3": {
+          "cumple": true,
+          "motivo": "Precio $59.99 >= 3 x ($4.55 + $1.99) = $19.62"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 29, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 3,
+      "faltantes": [
+        "Validación"
+      ],
+      "score": 51.41
+    },
+    {
+      "id": "6779fa124b9b3c0b365f22a1",
+      "titulo": "1 Pcs Compression Knee Support Sleeve Elastic Breathable Knee Pads Brace Springs Gym Sports Protector Basketball Volleyball Run",
+      "tipo": "knee_sleeve",
+      "proveedor": "Motorcycle Riding Gloves Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005005936387099.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/6779fa124b9b3c0b365f22a1",
+      "imagen": "https://ae01.alicdn.com/kf/S7d73b0d474074b2a9f077df5647f268d5.jpg",
+      "costo_variante": 3.25,
+      "envio": 1.99,
+      "costo_total": 5.24,
+      "dias_envio": 10,
+      "almacen": "CN",
+      "precio_recomendado": 19.37,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 2,
+        "confianza": "baja",
+        "listados": [
+          {
+            "id": "52f57eccf673c8c3c7a85705",
+            "seller": "Jeff's Store",
+            "title": "Wonder Care 2-Pack Bamboo Knee Compression Sleeve (B0FMYLVYR6)",
+            "price": 19.99
+          },
+          {
+            "id": "5101508b45f38f91b9cfd9eb",
+            "seller": "Wondercare",
+            "title": "Wonder Care 2-Pack Bamboo Knee Compression Sleeve (B0GY4NB1V4)",
+            "price": 20.99
+          },
+          {
+            "id": "cc95c4888fb380d2344f7375",
+            "seller": "Wondercare",
+            "title": "Wonder Care 2-Pack Bamboo Knee Compression Sleeve (B0DTT8PWZG)",
+            "price": 16.49
+          }
+        ]
+      },
+      "umbral_3x": 15.72,
+      "multiplo": 3.7,
+      "comision_pago": 0.86,
+      "margen_neto": 13.27,
+      "margen_pct": 68.51,
+      "pedidos": 3000,
+      "reviews": 2167,
+      "rating": 4.7,
+      "stock": 100,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Dolor y protección de rodilla en deporte."
+        },
+        "c2": {
+          "cumple": false,
+          "motivo": "Rodillera de compresión genérica."
+        },
+        "c3": {
+          "cumple": true,
+          "motivo": "Precio $19.37 >= 3 x ($3.25 + $1.99) = $15.72"
+        },
+        "c4": {
+          "cumple": true,
+          "motivo": "3000 pedidos (mínimo 50), 2167 reviews, stock 100, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 3,
+      "faltantes": [
+        "Factor Wow"
+      ],
+      "score": 46.16
+    },
+    {
+      "id": "68547a41a29bfe3de842386d",
+      "titulo": "Neck Stretcher Cervical Traction Pillow House Cervical Traction Tube Neck Devices Orthopedic Traction Pillow Relief Neck",
+      "tipo": "neck_stretcher",
+      "proveedor": "Cowaii 11 Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/3256806932306252.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/68547a41a29bfe3de842386d",
+      "imagen": "https://ae01.alicdn.com/kf/S69a92368d293412284917485227982285.jpg",
+      "costo_variante": 5.36,
+      "envio": 1.99,
+      "costo_total": 7.35,
+      "dias_envio": 11,
+      "almacen": "CN",
+      "precio_recomendado": 19.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 2,
+        "confianza": "baja",
+        "listados": [
+          {
+            "id": "40b1422ab8c3d969a6589276",
+            "seller": "EverRelief",
+            "title": "Cervical Traction Device, Inflatable Neck Stretcher & Traction Pillow",
+            "price": 24.99
+          },
+          {
+            "id": "925d6c3df8931a8ee453ef4f",
+            "seller": "Comfortlife LLC",
+            "title": "ComfortLife Neck Stretcher for Pain Relief (Black)",
+            "price": 14.99
+          },
+          {
+            "id": "5f8a3ad62586d5dcf7564120",
+            "seller": "Comfortlife LLC",
+            "title": "Neck Stretcher for Pain Relief (Blue)",
+            "price": 14.99
+          },
+          {
+            "id": "052b992b07905eecf6395af7",
+            "seller": "Comfortlife LLC",
+            "title": "ComfortLife Small Neck Stretcher Pillow (Grey)",
+            "price": 13.99
+          }
+        ]
+      },
+      "umbral_3x": 22.05,
+      "multiplo": 2.72,
+      "comision_pago": 0.88,
+      "margen_neto": 11.76,
+      "margen_pct": 58.83,
+      "pedidos": 1000,
+      "reviews": 115,
+      "rating": 4.2,
+      "stock": 24,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Alivia rigidez cervical, cefalea tensional y dolor por nervio pinzado (descripción)."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Almohada de tracción en C: efecto «quiropráctico en casa» visible en 3 segundos de video."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $19.99 < 3 x ($5.36 + $1.99) = $22.05"
+        },
+        "c4": {
+          "cumple": true,
+          "motivo": "1000 pedidos (mínimo 50), 115 reviews, stock 24, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 3,
+      "faltantes": [
+        "Rentabilidad 3x"
+      ],
+      "score": 35.33
+    },
+    {
+      "id": "6967e12e888f5d0001325483",
+      "titulo": "Smart Posture Corrector Micro Vibration Posture Training Reminder Sensor Back Posture Neck Hump Corrector for Adult Kids",
+      "tipo": "smart_posture",
+      "proveedor": "Health And Beauty Super Discount Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005009707993571.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/6967e12e888f5d0001325483",
+      "imagen": "https://ae01.alicdn.com/kf/S188cea82a89a49c585a4441cf0d34b6aa.jpg",
+      "costo_variante": 8.17,
+      "envio": 1.99,
+      "costo_total": 10.16,
+      "dias_envio": 11,
+      "almacen": "ALL",
+      "precio_recomendado": 44.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 2,
+        "confianza": "baja",
+        "listados": [
+          {
+            "id": "4f2e68dc611403edbb6f927e",
+            "seller": "Caliora US Shop",
+            "title": "Upgraded Smart Posture Corrector with Vibration Posture Reminder",
+            "price": 39.99
+          },
+          {
+            "id": "52cbc790a10c2e221502c1f4",
+            "seller": "PepBuff",
+            "title": "P1 Posture Corrector Strapless, Vibration Reminder, Rechargeable",
+            "price": 49.99
+          }
+        ]
+      },
+      "umbral_3x": 30.48,
+      "multiplo": 4.43,
+      "comision_pago": 1.6,
+      "margen_neto": 33.23,
+      "margen_pct": 73.86,
+      "pedidos": null,
+      "reviews": null,
+      "rating": null,
+      "stock": 41,
+      "dias_desde_actualizacion": 6,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Joroba y dolor de espalda por mala postura."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Sensor que vibra al encorvarte: gadget «entrenador de postura» novedoso."
+        },
+        "c3": {
+          "cumple": true,
+          "motivo": "Precio $44.99 >= 3 x ($8.17 + $1.99) = $30.48"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 41, listado actualizado hace 6 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 3,
+      "faltantes": [
+        "Validación"
+      ],
+      "score": 33.23
+    },
+    {
+      "id": "9f791b6c8fe1e678945b25f2",
+      "titulo": "1Pcs Plantar Fasciitis Night Splint, Drop Foot Orthopedic Brace, Plantar Fasciitis Relief Night Splint, Adjustable Foot Brace",
+      "tipo": "plantar_splint",
+      "proveedor": "GOMOREON Official Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005007266999305.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/9f791b6c8fe1e678945b25f2",
+      "imagen": "https://ae01.alicdn.com/kf/Sad1e4b80fdd04e67bdd0073d1ed92d1ek.jpg",
+      "costo_variante": 5.39,
+      "envio": 1.99,
+      "costo_total": 7.38,
+      "dias_envio": 11,
+      "almacen": "CN",
+      "precio_recomendado": 26.88,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 3,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "0162429753abcadd0ea7c9f4",
+            "seller": "ANSUSIC-US",
+            "title": "Plantar Fasciitis Night Splint Adjustable (Black)",
+            "price": 26.88
+          },
+          {
+            "id": "81d570da78f972ef858b72a4",
+            "seller": "ANSUSIC-US",
+            "title": "Plantar Fasciitis Night Splint Upgrade 3 (Blue)",
+            "price": 26.88
+          },
+          {
+            "id": "2100694cb7c99d4c95952df5",
+            "seller": "BraceAbility",
+            "title": "BraceAbility Padded 90 Degree Plantar Fasciitis Boot",
+            "price": 46.99
+          },
+          {
+            "id": "2a6620a4b514acec82f30887",
+            "seller": "ELESIK-US",
+            "title": "Plantar Fasciitis Night Splint, Brace and Support",
+            "price": 19.93
+          }
+        ]
+      },
+      "umbral_3x": 22.14,
+      "multiplo": 3.64,
+      "comision_pago": 1.08,
+      "margen_neto": 18.42,
+      "margen_pct": 68.53,
+      "pedidos": 53,
+      "reviews": 8,
+      "rating": 5,
+      "stock": 13,
+      "dias_desde_actualizacion": 3,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Dolor de talón por fascitis plantar."
+        },
+        "c2": {
+          "cumple": false,
+          "motivo": "Férula ortopédica de farmacia."
+        },
+        "c3": {
+          "cumple": true,
+          "motivo": "Precio $26.88 >= 3 x ($5.39 + $1.99) = $22.14"
+        },
+        "c4": {
+          "cumple": true,
+          "motivo": "53 pedidos (mínimo 50), 8 reviews, stock 13, listado actualizado hace 3 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 3,
+      "faltantes": [
+        "Factor Wow"
+      ],
+      "score": 33.14
+    },
+    {
+      "id": "6754ad7ba216fb1572b858de",
+      "titulo": "Sport Nasal Dilator Sleep Nasal Breathing Dilators Starter Kit Nose Breathe Strips Magnetic Nasal Strips Reduce Snoring",
+      "tipo": "nasal_dilator",
+      "proveedor": "Welcome to Department Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/3256807933892513.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/6754ad7ba216fb1572b858de",
+      "imagen": "https://ae01.alicdn.com/kf/Se3ebbfc2c50a408082f909d4b37a31bcs.jpg",
+      "costo_variante": 4.78,
+      "envio": 1.99,
+      "costo_total": 6.77,
+      "dias_envio": 15,
+      "almacen": "CN",
+      "precio_recomendado": 29.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 3,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "272337506fb0095f6c08f83f",
+            "seller": "mingtingyouxuan",
+            "title": "Breathe Nasal Strips Extra Strength 30 PCS",
+            "price": 29.99
+          },
+          {
+            "id": "f7bbd6875177f1d99b34353b",
+            "seller": "NAIZHEN",
+            "title": "Nasal Strips 120 Count for Snoring",
+            "price": 19.99
+          },
+          {
+            "id": "10e25313624d21bdf22814ac",
+            "seller": "Finepal Store",
+            "title": "Non-Magnetic Nasal Bands for Snoring & Breathing Support, Black",
+            "price": 29.99
+          }
+        ]
+      },
+      "umbral_3x": 20.31,
+      "multiplo": 4.43,
+      "comision_pago": 1.17,
+      "margen_neto": 22.05,
+      "margen_pct": 73.52,
+      "pedidos": 4,
+      "reviews": 0,
+      "rating": null,
+      "stock": 285,
+      "dias_desde_actualizacion": 8,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Ronquidos y congestión nasal."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Dilatador magnético externo: novedad frente a las tiras clásicas."
+        },
+        "c3": {
+          "cumple": true,
+          "motivo": "Precio $29.99 >= 3 x ($4.78 + $1.99) = $20.31"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "4 pedidos (mínimo 50), 0 reviews, stock 285, listado actualizado hace 8 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 3,
+      "faltantes": [
+        "Validación"
+      ],
+      "score": 25.27
+    },
+    {
+      "id": "67520ec1908790c8eaeb5131",
+      "titulo": "Micro-current Smart Sleep Instrument Handheld Sleep Aid Relieves Stress Anxiety Insomnia Improves Sleep Palm Pulse Sleep Aid",
+      "tipo": "sleep_aid",
+      "proveedor": "Pastsky Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005007513839510.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/67520ec1908790c8eaeb5131",
+      "imagen": "https://ae01.alicdn.com/kf/Sc6477e7d21d44ece875dad56fcfb7c73S.jpg",
+      "costo_variante": 9.8,
+      "envio": 1.99,
+      "costo_total": 11.79,
+      "dias_envio": 11,
+      "almacen": "CN",
+      "precio_recomendado": 21.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 3,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "e8ce9f4bbe47465f08fc0c75",
+            "seller": "Youthleaf",
+            "title": "Handheld Sleep Aid Device Sleep Machine Insomnia Relief",
+            "price": 21.99
+          },
+          {
+            "id": "61dadc7da4be99ae0def0f71",
+            "seller": "shenzhenshiguanglongdianzimaoyiyouxiangongsi",
+            "title": "Handheld Sleep Device Sleep Instrument Sleep Aid Machine",
+            "price": 27.97
+          },
+          {
+            "id": "a7d09928ebd3674d8fda1f14",
+            "seller": "Qiuhua Technology Co., Ltd.",
+            "title": "Sleep Aid Device Handheld Low Frequency Pulse Microcurrent",
+            "price": 20.98
+          }
+        ]
+      },
+      "umbral_3x": 35.37,
+      "multiplo": 1.87,
+      "comision_pago": 0.94,
+      "margen_neto": 9.26,
+      "margen_pct": 42.11,
+      "pedidos": 70,
+      "reviews": 18,
+      "rating": 4.8,
+      "stock": 3,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Insomnio y ansiedad nocturna."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Dispositivo de mano por microcorriente; ángulo «dormir sin pastillas»."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $21.99 < 3 x ($9.80 + $1.99) = $35.37"
+        },
+        "c4": {
+          "cumple": true,
+          "motivo": "70 pedidos (mínimo 50), 18 reviews, stock 3, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 3,
+      "faltantes": [
+        "Rentabilidad 3x"
+      ],
+      "score": 17.62
+    },
+    {
+      "id": "68751b380c5d7d7e2c0a65a9",
+      "titulo": "IntelliGlow Heated Eye Massager Bluetooth Music 180 Foldable Eye Care Device 5 Modes",
+      "tipo": "eye_massager",
+      "proveedor": "DUTRIEUX Global Essentials Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/3256808701005213.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/68751b380c5d7d7e2c0a65a9",
+      "imagen": "https://ae01.alicdn.com/kf/Sc7af11511e744e018e7f87ee9e7de8f9n.jpg",
+      "costo_variante": 37.59,
+      "envio": 2.99,
+      "costo_total": 40.58,
+      "dias_envio": 10,
+      "almacen": "US",
+      "precio_recomendado": 64.5,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 2,
+        "confianza": "baja",
+        "listados": [
+          {
+            "id": "707b4a48bf40622f01769a37",
+            "seller": "GLO24K",
+            "title": "GLO24K Heated Eye Massager Wand with Vibration",
+            "price": 49.0
+          },
+          {
+            "id": "98002bbca81b82dadb3ce884",
+            "seller": "Renpho Wellness",
+            "title": "RENPHO Eyeris 3 Eye Massager with Heat and Cooling",
+            "price": 79.99
+          }
+        ]
+      },
+      "umbral_3x": 121.74,
+      "multiplo": 1.59,
+      "comision_pago": 2.17,
+      "margen_neto": 21.75,
+      "margen_pct": 33.72,
+      "pedidos": null,
+      "reviews": null,
+      "rating": null,
+      "stock": 30,
+      "dias_desde_actualizacion": 5,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Fatiga ocular, ojos secos y migraña."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Antifaz con calor, presión de aire y música Bluetooth."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $64.50 < 3 x ($37.59 + $2.99) = $121.74"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 30, listado actualizado hace 5 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 2,
+      "faltantes": [
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": 21.75
+    },
+    {
+      "id": "699ec803403bc300013b5468",
+      "titulo": "Lumbar stretcher device Back Stretcher for Back Adjustable Lower Back Massager Non slip Lumbar Massager for Body Recovery",
+      "tipo": "back_stretcher",
+      "proveedor": "Stone Fully Managed Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005009980640452.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/699ec803403bc300013b5468",
+      "imagen": "https://ae01.alicdn.com/kf/Se390b748810f4d22b28d549f7abc287ct.jpg",
+      "costo_variante": 6.83,
+      "envio": 1.99,
+      "costo_total": 8.82,
+      "dias_envio": 12,
+      "almacen": "CN",
+      "precio_recomendado": 25.95,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 3,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "4bcd7e9ce6b98c92e7fbc354",
+            "seller": "ArtAn Balance",
+            "title": "Adjustable Back Stretcher for Lower Back Pain Relief",
+            "price": 25.95
+          },
+          {
+            "id": "6fd12374d5baf16ac2780981",
+            "seller": "Joyce&KF",
+            "title": "WANYIDA Lumbar Orthotic Traction Roll Device",
+            "price": 31.99
+          },
+          {
+            "id": "506f85e8fcae2ebeb6744735",
+            "seller": "Luluactivate",
+            "title": "ChiFit Multi-Level Back Stretching Device",
+            "price": 15.99
+          }
+        ]
+      },
+      "umbral_3x": 26.46,
+      "multiplo": 2.94,
+      "comision_pago": 1.05,
+      "margen_neto": 16.08,
+      "margen_pct": 61.97,
+      "pedidos": 5,
+      "reviews": 4,
+      "rating": 4.8,
+      "stock": 18,
+      "dias_desde_actualizacion": 4,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Dolor lumbar y descompresión de columna."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Tabla de arco de 3 niveles con efecto de estiramiento visible."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $25.95 < 3 x ($6.83 + $1.99) = $26.46"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "5 pedidos (mínimo 50), 4 reviews, stock 18, listado actualizado hace 4 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 2,
+      "faltantes": [
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": 18.91
+    },
+    {
+      "id": "67520f394d17c33acd191110",
+      "titulo": "Smart Sleep Instrument Portable Pulse Sleep Aid Handheld Sleep Aid Helps Fall Asleep Anxiety Relief Fast Sleep Aid Device",
+      "tipo": "sleep_aid",
+      "proveedor": "AFDEAL SKIN Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/3256807312009759.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/67520f394d17c33acd191110",
+      "imagen": "https://ae01.alicdn.com/kf/S67b19c7050bc4d10950a343a9f165974j.png",
+      "costo_variante": 8.87,
+      "envio": 1.99,
+      "costo_total": 10.86,
+      "dias_envio": 14,
+      "almacen": "CN",
+      "precio_recomendado": 21.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 3,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "e8ce9f4bbe47465f08fc0c75",
+            "seller": "Youthleaf",
+            "title": "Handheld Sleep Aid Device Sleep Machine Insomnia Relief",
+            "price": 21.99
+          },
+          {
+            "id": "61dadc7da4be99ae0def0f71",
+            "seller": "shenzhenshiguanglongdianzimaoyiyouxiangongsi",
+            "title": "Handheld Sleep Device Sleep Instrument Sleep Aid Machine",
+            "price": 27.97
+          },
+          {
+            "id": "a7d09928ebd3674d8fda1f14",
+            "seller": "Qiuhua Technology Co., Ltd.",
+            "title": "Sleep Aid Device Handheld Low Frequency Pulse Microcurrent",
+            "price": 20.98
+          }
+        ]
+      },
+      "umbral_3x": 32.58,
+      "multiplo": 2.02,
+      "comision_pago": 0.94,
+      "margen_neto": 10.19,
+      "margen_pct": 46.34,
+      "pedidos": 12,
+      "reviews": 13,
+      "rating": 4.2,
+      "stock": 99986,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Insomnio y ansiedad nocturna."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Dispositivo de mano por microcorriente; ángulo «dormir sin pastillas»."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $21.99 < 3 x ($8.87 + $1.99) = $32.58"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "12 pedidos (mínimo 50), 13 reviews, stock 99986, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 2,
+      "faltantes": [
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": 13.68
+    },
+    {
+      "id": "69b827db7b8c9c0001047c52",
+      "titulo": "Neck Stretcher and Cervical Traction Device, Cervical Neck Shoulder Stretcher Massage Pillow Traction Device Muscle Relaxation",
+      "tipo": "neck_stretcher",
+      "proveedor": "Unique Made6 Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/3256810392399344.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/69b827db7b8c9c0001047c52",
+      "imagen": "https://ae01.alicdn.com/kf/S0d6fd2d0c2764dbcbbce4df32b9b4b0et.jpg",
+      "costo_variante": 6.08,
+      "envio": 1.99,
+      "costo_total": 8.07,
+      "dias_envio": 10,
+      "almacen": "US",
+      "precio_recomendado": 19.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 2,
+        "confianza": "baja",
+        "listados": [
+          {
+            "id": "40b1422ab8c3d969a6589276",
+            "seller": "EverRelief",
+            "title": "Cervical Traction Device, Inflatable Neck Stretcher & Traction Pillow",
+            "price": 24.99
+          },
+          {
+            "id": "925d6c3df8931a8ee453ef4f",
+            "seller": "Comfortlife LLC",
+            "title": "ComfortLife Neck Stretcher for Pain Relief (Black)",
+            "price": 14.99
+          },
+          {
+            "id": "5f8a3ad62586d5dcf7564120",
+            "seller": "Comfortlife LLC",
+            "title": "Neck Stretcher for Pain Relief (Blue)",
+            "price": 14.99
+          },
+          {
+            "id": "052b992b07905eecf6395af7",
+            "seller": "Comfortlife LLC",
+            "title": "ComfortLife Small Neck Stretcher Pillow (Grey)",
+            "price": 13.99
+          }
+        ]
+      },
+      "umbral_3x": 24.21,
+      "multiplo": 2.48,
+      "comision_pago": 0.88,
+      "margen_neto": 11.04,
+      "margen_pct": 55.23,
+      "pedidos": null,
+      "reviews": null,
+      "rating": null,
+      "stock": 5,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Tracción cervical para dolor de cuello y hombros."
+        },
+        "c2": {
+          "cumple": true,
+          "motivo": "Almohada de tracción en C: efecto «quiropráctico en casa» visible en video."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $19.99 < 3 x ($6.08 + $1.99) = $24.21"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 5, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 2,
+      "faltantes": [
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": 11.04
+    }
+  ],
+  "descartados": [
+    {
+      "id": "662264c30a70d9515281b1f2",
+      "titulo": "SJASTME Super Higher Power Compression Tummy and Thigh Control High Waist Trainer Body Shapers Slimming Shapewear Pants",
+      "tipo": "shapewear",
+      "proveedor": "SJASTME Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/2251832664979636.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/662264c30a70d9515281b1f2",
+      "imagen": "https://ae01.alicdn.com/kf/Scfecfab9b10f4b26b36832bfed56f61ae.jpg",
+      "costo_variante": 13.99,
+      "envio": 1.85,
+      "costo_total": 15.84,
+      "dias_envio": 15,
+      "almacen": "AU",
+      "precio_recomendado": 28.98,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 4,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "winning:662264c3:1",
+            "seller": "jkeveningwear.com.au (Shopify)",
+            "title": "Seamless, High Waisted, Shapewear, Body Shaper",
+            "price": 43
+          },
+          {
+            "id": "winning:662264c3:2",
+            "seller": "jolievaughan.com (Shopify)",
+            "title": "360 Full Body Shapewear",
+            "price": 32
+          },
+          {
+            "id": "winning:662264c3:3",
+            "seller": "strap-slope.myshopify.com (Shopify)",
+            "title": "Seamless Women High Waist Slimming Tummy Control Knickers",
+            "price": 14.51
+          },
+          {
+            "id": "winning:662264c3:4",
+            "seller": "hauteflair.com (Shopify)",
+            "title": "Lower Tummy Control Shapewear",
+            "price": 25.95
+          }
+        ]
+      },
+      "umbral_3x": 47.52,
+      "multiplo": 1.83,
+      "comision_pago": 1.14,
+      "margen_neto": 12.0,
+      "margen_pct": 41.41,
+      "pedidos": 0,
+      "reviews": 0,
+      "rating": null,
+      "stock": 1039,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": false,
+          "motivo": "Moldeado estético, no resuelve un dolor físico."
+        },
+        "c2": {
+          "cumple": false,
+          "motivo": "Faja reductora genérica."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $28.98 < 3 x ($13.99 + $1.85) = $47.52"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 1039, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 0,
+      "faltantes": [
+        "Solución",
+        "Factor Wow",
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": 12.0
+    },
+    {
+      "id": "66eb6ebb0680f6aa8a84f281",
+      "titulo": "30cm Yoga Column Foam Fitness Muscle Training Pilates Sports Massage Foam Roller Grid Trigger Point Therapy Home Gym Exercise",
+      "tipo": "foam_roller",
+      "proveedor": "Outdoor Riding Accessories 1 Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/3256807434365332.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/66eb6ebb0680f6aa8a84f281",
+      "imagen": "https://ae01.alicdn.com/kf/Se9443b7104c84efaae181839395fd7efs.jpg",
+      "costo_variante": 6.68,
+      "envio": 1.99,
+      "costo_total": 8.67,
+      "dias_envio": 12,
+      "almacen": "CN",
+      "precio_recomendado": 21.43,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 2,
+        "confianza": "baja",
+        "listados": [
+          {
+            "id": "c391029a4e51df28f75307b4",
+            "seller": "Jeff's Store",
+            "title": "Gaiam Restore Foam Roller 18\" (Purple)",
+            "price": 23.75
+          },
+          {
+            "id": "a282828944252521685af9a3",
+            "seller": "Jeff's Store",
+            "title": "Gaiam Restore Foam Roller 18\" (Grey)",
+            "price": 29.99
+          },
+          {
+            "id": "b338f68402461910c4e857d9",
+            "seller": "FITNATION, LLC",
+            "title": "Fitizen Foam Roller (FitNation)",
+            "price": 15.99
+          }
+        ]
+      },
+      "umbral_3x": 26.01,
+      "multiplo": 2.47,
+      "comision_pago": 0.92,
+      "margen_neto": 11.84,
+      "margen_pct": 55.25,
+      "pedidos": null,
+      "reviews": null,
+      "rating": null,
+      "stock": 38,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Contracturas y puntos gatillo."
+        },
+        "c2": {
+          "cumple": false,
+          "motivo": "Rodillo de espuma genérico."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $21.43 < 3 x ($6.68 + $1.99) = $26.01"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 38, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 1,
+      "faltantes": [
+        "Factor Wow",
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": 11.84
+    },
+    {
+      "id": "aed2a3f29995cb20a285e6bd",
+      "titulo": "1Pcs Bunion Corrector for Women Men, Slip Proofing Version Bunion Toe Separator, Orthopedic Bunion Splint for Big Toe Pain Relief",
+      "tipo": "bunion_corrector",
+      "proveedor": "KWEEPFULL Official Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005006058085070.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/aed2a3f29995cb20a285e6bd",
+      "imagen": "https://ae01.alicdn.com/kf/Se0160b780a49464095675a9eb534ec96w.jpg",
+      "costo_variante": 3.65,
+      "envio": 1.99,
+      "costo_total": 5.64,
+      "dias_envio": 13,
+      "almacen": "CN",
+      "precio_recomendado": 15.49,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 4,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "f786fc3b71906f220bbc10b6",
+            "seller": "EliaValth",
+            "title": "Adjustable Bunion Corrector with Knob",
+            "price": 13.98
+          },
+          {
+            "id": "ddbb67a8cf634fd37dcdd670",
+            "seller": "Heir",
+            "title": "QICI Bunion Corrector 1 Pair",
+            "price": 13.99
+          },
+          {
+            "id": "716ea91d71d8d1398d4377f8",
+            "seller": "GLOSERIN",
+            "title": "Treatmedy Bunion Fix Adjustable Toe Straightener",
+            "price": 21.7
+          },
+          {
+            "id": "97903ad9d63f783d7ed468f4",
+            "seller": "Mayrarose",
+            "title": "Bunion Corrector Big Toe Straightener BC10",
+            "price": 16.99
+          }
+        ]
+      },
+      "umbral_3x": 16.92,
+      "multiplo": 2.75,
+      "comision_pago": 0.75,
+      "margen_neto": 9.1,
+      "margen_pct": 58.75,
+      "pedidos": 1,
+      "reviews": null,
+      "rating": null,
+      "stock": 2962,
+      "dias_desde_actualizacion": 3,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Dolor por juanete (hallux valgus)."
+        },
+        "c2": {
+          "cumple": false,
+          "motivo": "Separador y manga textil: commodity."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $15.49 < 3 x ($3.65 + $1.99) = $16.92"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "1 pedidos (mínimo 50), 0 reviews, stock 2962, listado actualizado hace 3 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 1,
+      "faltantes": [
+        "Factor Wow",
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": 9.48
+    },
+    {
+      "id": "410759ed1c8776e93b3fef57",
+      "titulo": "Bunion Corrector Orthopedic Big Toe Straightener Corrector Adjustable Hallux Valgus Brace Foot Care Bunion Relief",
+      "tipo": "bunion_corrector",
+      "proveedor": "Blue Snail Boutique Preferred Store Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005009186508080.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/410759ed1c8776e93b3fef57",
+      "imagen": "https://ae01.alicdn.com/kf/S49a49a8a850a419b9f7a039ac9ca4ff2H.jpg",
+      "costo_variante": 9.41,
+      "envio": 1.99,
+      "costo_total": 11.4,
+      "dias_envio": 15,
+      "almacen": "CN",
+      "precio_recomendado": 15.49,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 4,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "f786fc3b71906f220bbc10b6",
+            "seller": "EliaValth",
+            "title": "Adjustable Bunion Corrector with Knob",
+            "price": 13.98
+          },
+          {
+            "id": "ddbb67a8cf634fd37dcdd670",
+            "seller": "Heir",
+            "title": "QICI Bunion Corrector 1 Pair",
+            "price": 13.99
+          },
+          {
+            "id": "716ea91d71d8d1398d4377f8",
+            "seller": "GLOSERIN",
+            "title": "Treatmedy Bunion Fix Adjustable Toe Straightener",
+            "price": 21.7
+          },
+          {
+            "id": "97903ad9d63f783d7ed468f4",
+            "seller": "Mayrarose",
+            "title": "Bunion Corrector Big Toe Straightener BC10",
+            "price": 16.99
+          }
+        ]
+      },
+      "umbral_3x": 34.2,
+      "multiplo": 1.36,
+      "comision_pago": 0.75,
+      "margen_neto": 3.34,
+      "margen_pct": 21.56,
+      "pedidos": null,
+      "reviews": null,
+      "rating": null,
+      "stock": 6,
+      "dias_desde_actualizacion": 11,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Dolor por juanete (hallux valgus)."
+        },
+        "c2": {
+          "cumple": false,
+          "motivo": "Ortesis de farmacia; la perilla de ajuste no la diferencia lo suficiente."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $15.49 < 3 x ($9.41 + $1.99) = $34.20"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 6, listado actualizado hace 11 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 1,
+      "faltantes": [
+        "Factor Wow",
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": 3.34
+    },
+    {
+      "id": "6171246586057dd48d6c674f",
+      "titulo": "Adjustable Posture Corrector Back Support Shoulder Back Brace Posture Correction Spine Posture Corrector Postural Fixer Tape",
+      "tipo": "posture_corrector",
+      "proveedor": "Shop910989026 Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005001694313677.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/6171246586057dd48d6c674f",
+      "imagen": "https://ae01.alicdn.com/kf/S50b9e289c04b408284f6f7ad402ca2e7o.jpg",
+      "costo_variante": 11.62,
+      "envio": 0,
+      "costo_total": 11.62,
+      "dias_envio": 15,
+      "almacen": "CN",
+      "precio_recomendado": 12.99,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 3,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "2ff6b2928eab5a714338ea91",
+            "seller": "Rismooth US",
+            "title": "Posture corrector",
+            "price": 29.99
+          },
+          {
+            "id": "d7592485019a005f12ff56da",
+            "seller": "Chazcool",
+            "title": "Back Straightener Posture Corrector",
+            "price": 7.29
+          },
+          {
+            "id": "71c5306bcefed603169dddad",
+            "seller": "CALVINER",
+            "title": "Posture Corrector Adjustable Back Brace",
+            "price": 12.99
+          }
+        ]
+      },
+      "umbral_3x": 34.86,
+      "multiplo": 1.12,
+      "comision_pago": 0.68,
+      "margen_neto": 0.69,
+      "margen_pct": 5.31,
+      "pedidos": null,
+      "reviews": null,
+      "rating": null,
+      "stock": 2,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Postura encorvada y dolor de espalda."
+        },
+        "c2": {
+          "cumple": false,
+          "motivo": "Faja correctora de tela: commodity con cientos de listados."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $12.99 < 3 x ($11.62 + $0.00) = $34.86"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 2, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 1,
+      "faltantes": [
+        "Factor Wow",
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": 0.69
+    },
+    {
+      "id": "6754af6321889a9abac129c4",
+      "titulo": "1pc Anti-stress Head Skin Care Neck Relief Stress Relaxing Claw Massage Skin Care Massager",
+      "tipo": "scalp_massager",
+      "proveedor": "KuZHEN Makeup Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/1005001671258765.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/6754af6321889a9abac129c4",
+      "imagen": "https://ae01.alicdn.com/kf/Hec2fab4c21a744bc99dd93318f791c02P.jpg",
+      "costo_variante": 0.85,
+      "envio": 6.67,
+      "costo_total": 7.52,
+      "dias_envio": 15,
+      "almacen": "US",
+      "precio_recomendado": 7.9,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 3,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "67527b9efc083564e032e488",
+            "seller": "DONGJINGRE Direct",
+            "title": "Manual Scalp Massager Sandalwood Five Claw",
+            "price": 7.9
+          },
+          {
+            "id": "7e6eb27233a27a222b173288",
+            "seller": "HeeLang",
+            "title": "Healifty 2-Pack Scalp Massage Combs",
+            "price": 11.79
+          },
+          {
+            "id": "d91fb6bd968b58f8d020df31",
+            "seller": "WillowTrading",
+            "title": "3 Package Wooden Scalp Massager",
+            "price": 5.24
+          }
+        ]
+      },
+      "umbral_3x": 22.56,
+      "multiplo": 1.05,
+      "comision_pago": 0.53,
+      "margen_neto": -0.15,
+      "margen_pct": -1.9,
+      "pedidos": 1,
+      "reviews": 1,
+      "rating": 5,
+      "stock": 4995,
+      "dias_desde_actualizacion": 0,
+      "criterios": {
+        "c1": {
+          "cumple": false,
+          "motivo": "Relajación y antiestrés, no un dolor físico concreto."
+        },
+        "c2": {
+          "cumple": false,
+          "motivo": "Masajeador «pulpo» de alambre: commodity."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $7.90 < 3 x ($0.85 + $6.67) = $22.56"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "1 pedidos (mínimo 50), 1 reviews, stock 4995, listado actualizado hace 0 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 0,
+      "faltantes": [
+        "Solución",
+        "Factor Wow",
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": -0.16
+    },
+    {
+      "id": "694c393fd54dcf0001a89862",
+      "titulo": "Acupressure Pillow With Storage Bag For Neck Back Foot Massage Pads Acupressure Mat Pillow Set",
+      "tipo": "acupressure_mat",
+      "proveedor": "UU Shopping Store",
+      "sitio": "aliexpress",
+      "url_proveedor": "https://www.aliexpress.us/item/3256806936562528.html",
+      "url_autods": "https://platform.autods.com/marketplace/all-products/694c393fd54dcf0001a89862",
+      "imagen": "https://ae01.alicdn.com/kf/S83607c64b78d4bea86f6f51f7b7ca71eu.jpg",
+      "costo_variante": 20.1,
+      "envio": 0,
+      "costo_total": 20.1,
+      "dias_envio": 12,
+      "almacen": "ALL",
+      "precio_recomendado": 19.49,
+      "ancla": {
+        "metodo": "mediana por vendedor de la competencia (Amazon / Shopify)",
+        "vendedores": 3,
+        "confianza": "alta",
+        "listados": [
+          {
+            "id": "100896ab847bc7157a07f06e",
+            "seller": "SHSH trade group",
+            "title": "Kuznetsova Acupressure Mat",
+            "price": 19.49
+          },
+          {
+            "id": "0dc9d484b6bf2c4375847fc8",
+            "seller": "CXCTCT",
+            "title": "Extra Long Yoga Acupressure Mat Set + Pillow",
+            "price": 80.29
+          },
+          {
+            "id": "fa41f6351733f85dfc2b93e8",
+            "seller": "OLEKSTOR",
+            "title": "Kuznetsov Acupressure Massage Mat",
+            "price": 14.99
+          }
+        ]
+      },
+      "umbral_3x": 60.3,
+      "multiplo": 0.97,
+      "comision_pago": 0.87,
+      "margen_neto": -1.48,
+      "margen_pct": -7.59,
+      "pedidos": null,
+      "reviews": null,
+      "rating": null,
+      "stock": 658,
+      "dias_desde_actualizacion": 18,
+      "criterios": {
+        "c1": {
+          "cumple": true,
+          "motivo": "Tensión muscular de cuello y espalda."
+        },
+        "c2": {
+          "cumple": false,
+          "motivo": "Esterilla de pinchos muy saturada desde hace años."
+        },
+        "c3": {
+          "cumple": false,
+          "motivo": "Precio $19.49 < 3 x ($20.10 + $0.00) = $60.30"
+        },
+        "c4": {
+          "cumple": false,
+          "motivo": "0 pedidos (mínimo 50), 0 reviews, stock 658, listado actualizado hace 18 días (máximo 14)"
+        }
+      },
+      "criterios_cumplidos": 1,
+      "faltantes": [
+        "Factor Wow",
+        "Rentabilidad 3x",
+        "Validación"
+      ],
+      "score": -1.48
+    }
+  ],
+  "excluidos": [
+    {
+      "id": "67e6a2f1d126c2dc9986dcfa",
+      "titulo": "Magnetic Water Bottle Holder Gym Water Bottle Carrier Bag W/ Phone Pocket Handle Shoulder Strap 6 Built-in Magnets Water Bottle",
+      "motivo": "Sin ancla de competencia y fuera del nicho de dolor (portabotellas magnético)."
+    },
+    {
+      "id": "66d5495a37d3bd2e803216c2",
+      "titulo": "Booty Leg Resistance Bands With Ankle Strap Hip Fitness Trainer Pull Rope Exercises Band Leg Butt Training Women Glutes Workout",
+      "motivo": "Sin ancla de competencia ni documento completo (bandas de glúteo)."
+    },
+    {
+      "id": "6595db17da0df92307ebc572",
+      "titulo": "26/33cm Yoga Column Foam Fitness Pilates Back Muscle Massage Roller Gym Home Myofascial Release The Grid Body Relaxation",
+      "motivo": "No se consultó el documento completo (rodillo 26/33 cm): sin métricas de venta."
+    },
+    {
+      "id": "65cea0095131e07687f79666",
+      "titulo": "Yoga Fitness Ring Circle Pilates Women Girl Exercise Home Resistance Elasticity Yoga Gym Workout Pilates Ring Circle",
+      "motivo": "Sin ancla de competencia (aro de pilates)."
+    },
+    {
+      "id": "65b3b172a4f299ee16d54579",
+      "titulo": "Resistance Bands Sealing Elastic Booty Sport Bodybuilding Rubber Band For Fitness Gym Leagues Equipment Sports Mini Yoga",
+      "motivo": "Sin ancla de competencia ni métricas de venta (bandas CJ)."
+    },
+    {
+      "id": "679de2bd48e51c1ab9d6c99d",
+      "titulo": "EMS Foot Massager Mat Electric Rechargeable Shoulder Massage Pulse Muscle Stimulation Foot Relaxation Pads",
+      "motivo": "Eliminado del catálogo de AutoDS el 2026-10-20."
+    }
+  ]
+}

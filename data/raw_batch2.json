@@ -1,0 +1,30 @@
+{
+  "fuente": "AutoDS MCP (search_products con search_query + site_name)",
+  "extraido": "2026-10-19",
+  "region": "US",
+  "moneda": "USD",
+  "productos": [
+    {"id":"69b827db7b8c9c0001047c52","site":"aliexpress","id_on_site":"3256810392399344","supplier":"Unique Made6 Store","tipo":"neck_stretcher","title":"Neck Stretcher and Cervical Traction Device, Cervical Neck Shoulder Stretcher Massage Pillow Traction Device Muscle Relaxation","img":"https://ae01.alicdn.com/kf/S0d6fd2d0c2764dbcbbce4df32b9b4b0et.jpg","min_price":6.08,"max_price":6.37,"ship_cost":1.99,"ship_min":10,"ship_max":10,"warehouse":"US"},
+    {"id":"68547a41a29bfe3de842386d","site":"aliexpress","id_on_site":"3256806932306252","supplier":"Cowaii 11 Store","tipo":"neck_stretcher","title":"Neck Stretcher Cervical Traction Pillow House Cervical Traction Tube Neck Devices Orthopedic Traction Pillow Relief Neck","img":"https://ae01.alicdn.com/kf/S69a92368d293412284917485227982285.jpg","min_price":5.36,"max_price":5.36,"ship_cost":1.99,"ship_min":11,"ship_max":11,"warehouse":"CN"},
+    {"id":"699ec803403bc300013b5468","site":"aliexpress","id_on_site":"1005009980640452","supplier":"Stone Fully Managed Store","tipo":"back_stretcher","title":"Lumbar stretcher device Back Stretcher for Back Adjustable Lower Back Massager Non slip Lumbar Massager for Body Recovery","img":"https://ae01.alicdn.com/kf/Se390b748810f4d22b28d549f7abc287ct.jpg","min_price":6.66,"max_price":6.85,"ship_cost":1.99,"ship_min":12,"ship_max":12,"warehouse":"CN"}
+  ],
+  "referencias_competencia_amazon": [
+    {"id":"40b1422ab8c3d969a6589276","tipo":"neck_stretcher","title":"Cervical Traction Device, Inflatable Neck Stretcher & Traction Pillow (EverRelief)","price":24.99},
+    {"id":"2ff6b2928eab5a714338ea91","tipo":"posture_corrector","title":"Posture corrector (Rismooth US)","price":29.99},
+    {"id":"d7592485019a005f12ff56da","tipo":"posture_corrector","title":"Back Straightener Posture Corrector (Chazcool)","price":7.29},
+    {"id":"71c5306bcefed603169dddad","tipo":"posture_corrector","title":"Posture Corrector Adjustable Back Brace (CALVINER)","price":12.99},
+    {"id":"c339b63074cabc28c03c5501","tipo":"ems_neck_massager","title":"Neck Massager with Heat (FreedomForce)","price":19.99},
+    {"id":"18e6de3dc8a2260be777a9cb","tipo":"ems_neck_massager","title":"Wireless TENS Unit Muscle Stimulator 18 Modes (SIMUSI)","price":99.99},
+    {"id":"100896ab847bc7157a07f06e","tipo":"acupressure_mat","title":"Kuznetsova Acupressure Mat (SHSH trade group)","price":19.49},
+    {"id":"0dc9d484b6bf2c4375847fc8","tipo":"acupressure_mat","title":"Extra Long Yoga Acupressure Mat Set + Pillow (CXCTCT)","price":80.29},
+    {"id":"fa41f6351733f85dfc2b93e8","tipo":"acupressure_mat","title":"Kuznetsov Acupressure Massage Mat (OLEKSTOR)","price":14.99},
+    {"id":"4bcd7e9ce6b98c92e7fbc354","tipo":"back_stretcher","title":"Adjustable Back Stretcher for Lower Back Pain Relief (ArtAn Balance)","price":25.95},
+    {"id":"6fd12374d5baf16ac2780981","tipo":"back_stretcher","title":"WANYIDA Lumbar Orthotic Traction Roll Device","price":31.99},
+    {"id":"506f85e8fcae2ebeb6744735","tipo":"back_stretcher","title":"ChiFit Multi-Level Back Stretching Device","price":15.99},
+    {"id":"f786fc3b71906f220bbc10b6","tipo":"bunion_corrector","title":"Adjustable Bunion Corrector with Knob (EliaValth)","price":13.98},
+    {"id":"ddbb67a8cf634fd37dcdd670","tipo":"bunion_corrector","title":"QICI Bunion Corrector 1 Pair","price":13.99},
+    {"id":"716ea91d71d8d1398d4377f8","tipo":"bunion_corrector","title":"Treatmedy Bunion Fix Adjustable Toe Straightener","price":21.7},
+    {"id":"97903ad9d63f783d7ed468f4","tipo":"bunion_corrector","title":"Bunion Corrector Big Toe Straightener BC10 (Mayrarose)","price":16.99},
+    {"id":"6221673bccb7b1c430e265f6","tipo":"grip_trainer","title":"NIYIKOW Grip Strength Trainer","price":6.99}
+  ]
+}

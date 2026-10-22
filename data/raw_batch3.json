@@ -1,0 +1,21 @@
+{
+  "fuente": "AutoDS MCP (search_products con search_query + site_name)",
+  "extraido": "2026-10-19",
+  "region": "US",
+  "moneda": "USD",
+  "productos": [
+    {"id":"410759ed1c8776e93b3fef57","site":"aliexpress","id_on_site":"1005009186508080","supplier":"Blue Snail Boutique Preferred Store Store","tipo":"bunion_corrector","title":"Bunion Corrector Orthopedic Big Toe Straightener Corrector Adjustable Hallux Valgus Brace Foot Care Bunion Relief","img":"https://ae01.alicdn.com/kf/S49a49a8a850a419b9f7a039ac9ca4ff2H.jpg","min_price":9.41,"max_price":9.44,"ship_cost":1.99,"ship_min":15,"ship_max":15,"warehouse":"CN"},
+    {"id":"aed2a3f29995cb20a285e6bd","site":"aliexpress","id_on_site":"1005006058085070","supplier":"KWEEPFULL Official Store","tipo":"bunion_corrector","title":"1Pcs Bunion Corrector for Women Men, Slip Proofing Version Bunion Toe Separator, Orthopedic Bunion Splint for Big Toe Pain Relief","img":"https://ae01.alicdn.com/kf/Se0160b780a49464095675a9eb534ec96w.jpg","min_price":3.65,"max_price":3.92,"ship_cost":1.99,"ship_min":13,"ship_max":13,"warehouse":"CN"}
+  ],
+  "referencias_competencia_amazon": [
+    {"id":"e8ce9f4bbe47465f08fc0c75","tipo":"sleep_aid","title":"Handheld Sleep Aid Device Sleep Machine Insomnia Relief (Youthleaf)","price":21.99},
+    {"id":"61dadc7da4be99ae0def0f71","tipo":"sleep_aid","title":"Handheld Sleep Device Sleep Instrument Sleep Aid Machine","price":27.97},
+    {"id":"a7d09928ebd3674d8fda1f14","tipo":"sleep_aid","title":"Sleep Aid Device Handheld Low Frequency Pulse Microcurrent","price":20.98},
+    {"id":"52f57eccf673c8c3c7a85705","tipo":"knee_sleeve","title":"Wonder Care 2-Pack Bamboo Knee Compression Sleeve (B0FMYLVYR6)","price":19.99},
+    {"id":"5101508b45f38f91b9cfd9eb","tipo":"knee_sleeve","title":"Wonder Care 2-Pack Bamboo Knee Compression Sleeve (B0GY4NB1V4)","price":20.99},
+    {"id":"cc95c4888fb380d2344f7375","tipo":"knee_sleeve","title":"Wonder Care 2-Pack Bamboo Knee Compression Sleeve (B0DTT8PWZG)","price":16.49},
+    {"id":"c391029a4e51df28f75307b4","tipo":"foam_roller","title":"Gaiam Restore Foam Roller 18\" (Purple)","price":23.75},
+    {"id":"a282828944252521685af9a3","tipo":"foam_roller","title":"Gaiam Restore Foam Roller 18\" (Grey)","price":29.99},
+    {"id":"b338f68402461910c4e857d9","tipo":"foam_roller","title":"Fitizen Foam Roller (FitNation)","price":15.99}
+  ]
+}
